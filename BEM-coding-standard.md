@@ -18,58 +18,59 @@ There are a number of common problems when working with CSS at scale,
 but the major two that this document aims to solve are clarity and
 confidence:
 
--   **Clarity**: How much information can we glean from the smallest
-    > possible source? Is our code self-documenting? Can we make safe
-    > assumptions from a single context? How much do we have to rely on
-    > external or supplementary information in order to learn about a
-    > system?
+> **Clarity**: How much information can we glean from the smallest
+> possible source? Is our code self-documenting? Can we make safe
+> assumptions from a single context? How much do we have to rely on
+> external or supplementary information in order to learn about a
+> system?
 
--   **Confidence**: Do we have enough knowledge about a system to be
-    > able to safely interface with it? Do we know enough about our code
-    > to be able to confidently make changes? Do we have a way of
-    > knowing the potential side effects of making a change? Do we have
-    > a way of knowing what we might be able to remove?
+> **Confidence**: Do we have enough knowledge about a system to be
+> able to safely interface with it? Do we know enough about our code
+> to be able to confidently make changes? Do we have a way of
+> knowing the potential side effects of making a change? Do we have
+> a way of knowing what we might be able to remove?
 
 Naming convention
 -----------------
 
 #### Format
 
-.block\_\_element--modifier
+`.block__element--modifier`
 
 #### Example
 
-.user\_\_name--long
+`.user__name--long`
 
 Always encapsulate a component in a component name and all elements of
 the component is prefixed with the component name. For example:
 
-\<div class="user"\>
-
-\<img src="/jeff.jpg" class="user\_\_image" /\>
-
-\<p class="user\_\_name"\>Jeff\</p\>
-
-\</div\>
+```
+<div class="user">
+    <img class="user__image" src="/jeff.jpg" />
+    <p class="user__name">Jeff</p>
+</div>
+```
 
 The should be achieved by referencing parent selectors using the
 ampersand character.
 
+```
 .user {
 
-&\_\_image {
+    &__image {
+    
+    …
+    
+    }
 
-> …
+    &__name {
+    
+    …
+    
+    }
 
 }
-
-&\_\_name {
-
-…
-
-}
-
-}
+```
 
 Targeting elements
 ------------------
@@ -83,11 +84,11 @@ Utility class
 
 #### Format
 
-.u-utility-name
+`.u-utility-name`
 
 #### Example
 
-.u-no-border
+`.u-no-border`
 
 Utility classes are styling patterns that are used across the entire
 site and can be applied to modify components. We should strive to keep
@@ -103,7 +104,7 @@ reasoning for the styling and not on the style being applied. Styling
 can change which makes the name incorrect and confusing. Component names
 can contain more than one word which are separated by a single hyphen:
 
-.component-name
+`.component-name`
 
 ### Elements
 
@@ -111,11 +112,11 @@ When naming an element use a word or words that best describe the
 content of the element. Again these can contain more than one word
 separated by a single hyphen:
 
-\<ul class="list"
-
-\<li class="list\_\_item"\>\</li\>
-
-\</ul\>
+```
+<ul class="list">
+    <li class="list__item"></li>
+</ul>
+```
 
 ### Modifier
 
@@ -124,11 +125,11 @@ these can contain more than one word separated by a single hyphen:
 
 #### Do not:
 
-\<div class="row--grey"\>\</div\>
+`<div class="row--grey"></div>`
 
 #### Do:
 
-\<div class="row--billboard"\>\</div\>
+`<div class="row--billboard"></div>`
 
 Nesting elements
 ----------------
@@ -139,11 +140,11 @@ element name for each DOM element. For example:
 
 #### Do not:
 
-\<li class="nav\_\_list\_\_item"\>\</div\>
+`<li class="nav__list__item"></div>`
 
 #### Do:
 
-\<li class="nav\_\_list-item"\>\</li\>
+`<li class="nav__list-item"></li>`
 
 If you find you are having trouble naming an element due to over
 nesting. Consider splitting that component into smaller components that
@@ -151,25 +152,23 @@ when combined become result in the desired organism.
 
 Example of a component with nested elements:
 
-\<nav class="nav"\>
+```
+<nav class="nav">
 
-\<ul class="nav\_\_list"\>
+    <ul class="nav__list">
+    
+        <li class="nav__list-item">
+            <a href="#" class="nav__link">Link</a>
+        <li>
+        
+        <li class="nav__list-item">
+            <a href="#" class="nav__link--promo">Promo</a>
+        </li>
+    
+    </ul>
 
-\<li class="nav\_\_list-item"\>
-
-\<a href="\#" class="nav\_\_link"\>Link\</a\>
-
-\<li\>
-
-\<li class="nav\_\_list-item"\>
-
-\<a href="\#" class="nav\_\_link--promo"\>Promo\</a\>
-
-\</li\>
-
-\</ul\>
-
-\</nav\>
+</nav>
+```
 
 State classes
 -------------
@@ -181,13 +180,13 @@ due to a certain state being invoked.
 
 #### Format
 
-.[is|has]-state {}
+`.[is|has]-state {}`
 
 #### Example
 
-.is-active
+`.is-active`
 
-.has-dropdown
+`.has-dropdown`
 
 This allows interactive scripts to simple toggle these classes with
 confidence only state styles will be effect. Leaving component styles
@@ -202,11 +201,11 @@ developer working with JavaScript, leave these well alone.
 
 #### Format
 
-.js-functionality
+`.js-functionality`
 
 #### Example
 
-.js-open
+`.js-open`
 
 The idea is that -- in order to properly separate our concerns, we
 should never have styling and behaviour bound to the same classes.
