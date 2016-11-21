@@ -192,7 +192,7 @@ This allows interactive scripts to simple toggle these classes with
 confidence only state styles will be effect. Leaving component styles
 uneffected.
 
-JavaScript Namespacing
+JavaScript namespacing
 ----------------------
 
 A piece of the DOM has some behaviour acting upon it, and that
