@@ -1,5 +1,5 @@
-Webteam practices
+Web team practices
 ===
 
-A collection of documents that describe best practices for Canonical webteam.
+A collection of documents that describe best practices for Canonical web team.
 
