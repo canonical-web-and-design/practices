@@ -1,4 +1,4 @@
-Contribution guidelines
+Guidelines for contributing to webteam-practices
 ===
 
 This repository contains best practices specifically for the Canonical Webteam.
