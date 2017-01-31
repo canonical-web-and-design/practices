@@ -9,3 +9,7 @@ General rules for all HTML documents are:
  - Tags and attributes should be lowercase (`<p class="intro">` not `<P CLASS="intro"`)
  - Use double quotes for attribute values
  - Close all elements - either a closeing tag (`<p>...</p>`) or self-closing (`<img src="jeff.jpg" />`)
+
+## Images
+  - Use alt attributes on img elements
+  - Use null alt text and no title attribute on img elements for images that Assistive Technology should ignore
