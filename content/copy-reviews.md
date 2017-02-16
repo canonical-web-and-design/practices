@@ -4,7 +4,7 @@ Use this list to review the copy on Canonical and Ubuntu sites and web apps.
 
 You can find more detailed information on the [Canonical copy style guide](https://wiki.canonical.com/Marketing/Style_guide), including lists of product names and commonly used words.
 
-If something is ambiguous, ill-defined or absent from the style guide, please [submit an issue](https://github.com/ubuntudesign/style-guides/issues/new) for an amendment or addition to the guide.
+If something is ambiguous, ill-defined or absent from the style guide, please [submit an issue](https://github.com/ubuntudesign/webteam-practices/issues/new) for an amendment or addition to the guide.
 
 ## Checklist
 
