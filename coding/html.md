@@ -12,4 +12,4 @@ General rules for all HTML documents are:
 
 ## Images
   - Use alt attributes on img elements
-  - Use null alt text and no title attribute on img elements for images that Assistive Technology should ignore
+  - Use null alt text (`alt=""`) and no title attribute on img elements for images that Assistive Technology should ignore
