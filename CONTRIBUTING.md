@@ -29,7 +29,13 @@ To get around this it may make more sense to ask the team to collaborate on long
 
 The parts of the newly created document should then be submitted as pull requests in the normal way, subject to all the normal rules of approval, but if most of the relevant team members were already involved in the collaborative phase then approval should go by much more easily.
 
-## Approving a pull request
+## Reviewing pull requests
+
+As this repository represents the whole team, team members should try to collaborate on any pull request they are aware of.
+
+To encourage participation and activity on the project, comments should remain as polite and accommodating as possible. The [GitHub reviews](https://help.github.com/articles/about-pull-request-reviews/) features ("approve" and "request changes") should *not* be used, as all discussion is merely a discussion of opinions.
+
+### Approval criteria
 
 Before a pull request is approved and merged:
 
