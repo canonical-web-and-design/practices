@@ -27,6 +27,8 @@ This is so that team members can easily run multiple projects at the same time w
 | 8016 | [tutorials.ubuntu.com](https://github.com/canonical-websites/tutorials.ubuntu.com/) |
 | 8017 | [assets.ubuntu.com](https://github.com/canonical-websites/assets.ubuntu.com/) |
 | 8018 | [manager.assets.ubuntu.com](https://github.com/canonical-websites/manager.assets.ubuntu.com/) |
+| 8019 | [community.ubuntu.com](https://github.com/canonical-websites/community.ubuntu.com/) |
+| 8020 | [usn.ubuntu.com](https://github.com/canonical-websites/usn.ubuntu.com/) |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework) |
 
 ## Why use a fixed port
