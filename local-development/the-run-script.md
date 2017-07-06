@@ -25,6 +25,7 @@ The basic options are:
 ./run serve  # Start the Django server, optionally watching for changes
 ./run build  # Build the CSS
 ./run watch  # Watch and build the CSS whenever Sass changes
+./run test   # Check code syntax and run unit tests
 ./run clean  # Remove created files and docker containers
 ```
 
