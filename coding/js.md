@@ -17,3 +17,8 @@ e.g. `<a data-js="index-link" href="/index">Index</a>`
   - Cache DOM queries—only select an element once.
   - Use event delegation as much as possible to reduce the number of events bound to the page
   - Understand when you cause an element repaint and reduce inline style manipulations accordingly. If possible, always use CSS for element transforms and transitions.
+
+### References
+- [http://jstherightway.org/](http://jstherightway.org/)
+- [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
+- [http://eloquentjavascript.net/](http://eloquentjavascript.net/)
