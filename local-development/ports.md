@@ -17,6 +17,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8005 | [conjure-up.io](https://github.com/canonical-websites/conjure-up.io) |
 | 8006 | [maas.io](https://github.com/canonical-websites/maas.io) |
 | 8007 | [docs.ubuntu.com](https://github.com/canonical-websites/docs.ubuntu.com) |
+| 8008 | RESERVED: [Alternative HTTP port](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) |
 | 8009 | [cloud-init.io](https://github.com/canonical-websites/cloud-init.io) |
 | 8010 | [cn.ubuntu.com](https://github.com/canonical-websites/cn.ubuntu.com) |
 | 8011 | [design.ubuntu.com](https://github.com/canonical-websites/design.ubuntu.com) |
@@ -29,6 +30,8 @@ This is so that team members can easily run multiple projects at the same time w
 | 8018 | [manager.assets.ubuntu.com](https://github.com/canonical-websites/manager.assets.ubuntu.com/) |
 | 8019 | [community.ubuntu.com](https://github.com/canonical-websites/community.ubuntu.com/) |
 | 8020 | [usn.ubuntu.com](https://github.com/canonical-websites/usn.ubuntu.com/) |
+| 8021 | RESERVED: Possible use [by iTunes Radio streams](https://support.apple.com/en-za/HT202944) |
+| 8022 | [snapcraft-flask](https://github.com/canonical-websites/snapcraft-flask/) |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework) |
 
 ## Why use a fixed port
