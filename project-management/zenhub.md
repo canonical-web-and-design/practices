@@ -15,6 +15,7 @@ Current squad boards:
 
 ## Iterations
 
+- Iterations are two weeks. They start on a Monday and finishing on a Friday.
 - Each iteration should be a milestone in ZenHub in the format `Iteration [Iteration number]-[enddate].[endmonth]`.
 
  For example `Iteration 9-20.10` followed by `Iteration 10-3.11`.
