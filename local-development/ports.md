@@ -31,9 +31,8 @@ This is so that team members can easily run multiple projects at the same time w
 | 8019 | [community.ubuntu.com](https://github.com/canonical-websites/community.ubuntu.com/) |
 | 8020 | [usn.ubuntu.com](https://github.com/canonical-websites/usn.ubuntu.com/) |
 | 8021 | RESERVED: Possible use [by iTunes Radio streams](https://support.apple.com/en-za/HT202944) |
-| 8022 | [snapcraft.io](https://github.com/canonical-websites/snapcraft.io/) |
+| 8022 | [usn.ubuntu.com](https://launchpad.net/usn.ubuntu.com) |
 | 8023 | [insights.ubuntu.com](https://github.com/canonical-websites/insights.ubuntu.com/) |
-| 8024 | [usn.ubuntu.com](https://launchpad.net/usn.ubuntu.com) |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework) |
 | 8201 | [phone-docs](https://github.com/canonical-docs/phone-docs/) |
 
