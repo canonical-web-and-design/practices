@@ -16,9 +16,9 @@ Current squad boards:
 ## Iterations
 
 - Iterations are two weeks. They start on a Monday and finishing on a Friday.
-- Each iteration should be a milestone in ZenHub in the format `Iteration [Iteration number]-[enddate].[endmonth]`.
+- Each iteration should be a milestone in ZenHub in the format `Iteration [Iteration number] - [endyear]-[endmonth]-[endday]`.
 
- For example `Iteration 9-20.10` followed by `Iteration 10-3.11`.
+ For example `Iteration 9 - 2017-11-17` followed by `Iteration 10 - 2017-12-01`.
 
 ## Epics
 
