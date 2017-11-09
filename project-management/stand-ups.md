@@ -11,11 +11,11 @@ All stand-ups should try to follow these guidelines, as well as [general best pr
 
 ### Standard format
 
-During a stand-up, each team member should mention:
+During a stand-up, each team should discuss:
 
-- What they worked on yesterday and how it brought the team closer to the iteration goals
-- What they are planning to work on today and how it brings the team closer to the iteration goals
-- What, if anything, is blocking their work
+- the state and progress of current work (cards and epics)
+- anything blocking current work and how to resolve it
+- how close the team is to achieving their iteration goals
 
 ### Appropriate questions
 
