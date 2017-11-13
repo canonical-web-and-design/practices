@@ -34,6 +34,6 @@ Each team member can help the stand-up go smoothly by checking these points befo
 
 ### General tips
 
-If team members get involved into a lengthy conversation ask them to stop ("let's take this offline") and continue the discussion after stand up with the relevant people.
+If team members get involved into a lengthy conversation ask them to stop and continue the discussion after stand up with the relevant people.
 
 If you're having trouble with the TV, inform your PM and use your laptop in the meantime.
