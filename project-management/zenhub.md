@@ -15,7 +15,7 @@ Current squad boards:
 
 ## Iterations
 
-- Iterations are two weeks. They start on a Monday and finishing on a Friday.
+- Iterations are two weeks. They start on a Monday and finish on a Friday.
 - Each iteration should be a milestone in ZenHub in the format `Iteration [Iteration number] - [endyear]-[endmonth]-[endday]`.
 
  For example `Iteration 9 - 2017-11-17` followed by `Iteration 10 - 2017-12-01`.
@@ -33,7 +33,7 @@ Current squad boards:
 - There should be one issue per person in the `In Progress` pipeline.
 - Issues should have one assignee at any one time. If an issue requires multiple people at different stages it should be handed over and the assignee changed at the appropriate time. When reassigned, issues should be moved back into the `Current Iteration` pipeline.
 - Issues that are part of an epic should have an estimate based on [the fibonacci estimation guide](https://github.com/canonical-webteam/practices/blob/master/project-management/fibonacci-estimation-guide.md).
-- If for some reason you move to a different issue before completing your current issue, that issue should be moved in to either the `Current Iteration` or `Blocked` pipelines.
+- If for some reason you move to a different issue before completing your current issue, that issue should be moved to the `Current Iteration` pipeline or labelled as `blocked`.
 - Issues should have a description if the title isn't obvious.
 - Issues do not need to be part of an epic, but most should.
 
@@ -49,7 +49,7 @@ Where issues are born. This is a general bucket of all the issues that have been
 
 Issues that are scoped and ready to be picked up at some point in a future iteration/ if there's time left at the end of an iteration.
 
-It's of upmost importance that triaged issues are prioritised.
+It's of utmost importance that triaged issues are prioritised.
 
 ### Iteration Epics
 
@@ -69,10 +69,6 @@ If you're waiting for something/ someone to continue work on an issue, move it t
 
 If you need to move on to something with a higher priority move any issue you're assigned but not working on back to `Current Iteration`.
 
-### Blocked
-
-Issues that are blocked for any reason. All blocked issues should have a comment explaining why they're blocked.
-
 ### Review/ QA
 
 Any issue that is deemed code/ UX/ design complete but requires a review or QA.
@@ -80,3 +76,19 @@ Any issue that is deemed code/ UX/ design complete but requires a review or QA.
 ### Closed
 
 Anything that is complete. The final resting place for issues and epics.
+
+## Labels
+
+### blocked
+
+The purpose of marking an issue `blocked` is to alert managers that unblocking it requires their help. Don’t mark it as blocked if, for example, it just needs a meeting to discuss it; that’s something you can arrange yourself.
+
+An issue may be blocked in any unclosed Pipeline: for example, a “Triaged” / “Current Iteration” issue might be blocked if it can’t be started until another issue is closed, or a “Review/QA” issue might be blocked if a required reviewer is on leave. All blocked issues should have a comment explaining why they’re blocked.
+
+### good first issue
+
+Lets potential contributors know that [the issue would be a good one to start with](https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/). For example, a typo or grammar error.
+
+### help wanted
+
+Alerts contributors that the assigned person (or if there is none, the team as a whole) would prefer outside help in fixing the problem.
