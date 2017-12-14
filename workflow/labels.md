@@ -37,7 +37,7 @@ Each review label has 3 steps:
 
 | Label   | Description                                                                            |
 | ----    | ---                                                                                    |
-| Blocked | Alerts managers that unblocking it requires their help. Any blocked issue should have a comment explaining why it’s blocked. Don’t mark it as blocked if, for example, it just needs a meeting to discuss it; that’s something you can arrange yourself. An issue may be blocked in any unclosed Pipeline. |
+| Blocked | Alerts managers that unblocking it requires their help. Any blocked issue should have a comment explaining what help you need. |
 | Doing   | Actually working on the issue                                                          |
 | Triaged | A team member has reviewed this issue, agreed that it is valid and assigned a priority |
 
