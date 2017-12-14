@@ -15,7 +15,7 @@ Current squad boards:
 
 ## Iterations
 
-- Iterations are two weeks. They start on a Monday and finishing on a Friday.
+- Iterations are two weeks. They start on a Monday and finish on a Friday.
 - Each iteration should be a milestone in ZenHub in the format `Iteration [Iteration number] - [endyear]-[endmonth]-[endday]`.
 
  For example `Iteration 9 - 2017-11-17` followed by `Iteration 10 - 2017-12-01`.
@@ -33,7 +33,7 @@ Current squad boards:
 - There should be one issue per person in the `In Progress` pipeline.
 - Issues should have one assignee at any one time. If an issue requires multiple people at different stages it should be handed over and the assignee changed at the appropriate time. When reassigned, issues should be moved back into the `Current Iteration` pipeline.
 - Issues that are part of an epic should have an estimate based on [the fibonacci estimation guide](https://github.com/canonical-webteam/practices/blob/master/project-management/fibonacci-estimation-guide.md).
-- If for some reason you move to a different issue before completing your current issue, that issue should be moved in to either the `Current Iteration` or `Blocked` pipelines.
+- If for some reason you move to a different issue before completing your current issue, that issue should be labelled as “blocked”.
 - Issues should have a description if the title isn't obvious.
 - Issues do not need to be part of an epic, but most should.
 
@@ -49,7 +49,7 @@ Where issues are born. This is a general bucket of all the issues that have been
 
 Issues that are scoped and ready to be picked up at some point in a future iteration/ if there's time left at the end of an iteration.
 
-It's of upmost importance that triaged issues are prioritised.
+It's of utmost importance that triaged issues are prioritised.
 
 ### Iteration Epics
 
@@ -57,7 +57,7 @@ At the end of an iteration these should be either closed (if all issues are comp
 
 ### Current Iteration
 
-Issues waiting to be picked up in the current iteration. These are either issues that are yet to be started, have been reassigned or are on hold, but not blocked.
+Issues waiting to be picked up in the current iteration. These are either issues that are yet to be started, have been reassigned or are on hold.
 
 ### In Progress
 
@@ -65,13 +65,9 @@ Issues being actively worked on.
 
 Only one issue per person in the squad should be here. As much as we'd like, we can't work on 5 things at once.
 
-If you're waiting for something/ someone to continue work on an issue, move it to the `Blocked` pipeline.
+If you're waiting for something/ someone to continue work on an issue, label it as “blocked”.
 
 If you need to move on to something with a higher priority move any issue you're assigned but not working on back to `Current Iteration`.
-
-### Blocked
-
-Issues that are blocked for any reason. All blocked issues should have a comment explaining why they're blocked.
 
 ### Review/ QA
 
