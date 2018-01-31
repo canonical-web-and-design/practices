@@ -37,6 +37,8 @@ This is so that team members can easily run multiple projects at the same time w
 | 8102 | [vanilla-framework-react](https://github.com/vanilla-framework/vanilla-framework-react)           |
 | 8201 | [phone-docs](https://github.com/canonical-docs/phone-docs/)                                       |
 | 8202 | [snappy-docs](https://github.com/canonical-docs/snappy-docs)                                      |
+| 8203 | [maas-docs](https://github.com/canonicalltd/maas-docs)                                            |
+| 8204 | [conjure-up-docs](https://github.com/canonical-docs/conjure-up-docs)                              |
 
 ## Why use a fixed port
 
