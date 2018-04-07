@@ -43,11 +43,8 @@ Each review label has 3 steps:
 
 ## Type
 
-| Label       | Description                                            |
-| ----        | ---                                                    |
-| Bug         | This issue is a bug                                    |
-| Enhancement | This issue improves the behavior, or adds new features |
-| Maintenance | Update to documentation or dependencies                |
-| Question    | To ask a question about something on the project       |
-| good first issue | Lets potential contributors know that [the issue would be a good one to start with](https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/). For example, a typo or grammar error. |
-| help wanted | Alerts contributors that the assigned person (or if there is none, the team as a whole) would prefer outside help in fixing the problem. |
+| Label            | Description                                            |
+| ----             | ---                                                    |
+| Question         | To ask a question about something on the project       |
+| Good first issue | Lets potential contributors know that [the issue would be a good one to start with](https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/). For example, a typo or grammar error. |
+| Help wanted      | Alerts contributors that the assigned person (or if there is none, the team as a whole) would prefer outside help in fixing the problem. |
