@@ -34,6 +34,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8022 | [usn.ubuntu.com](https://launchpad.net/usn.ubuntu.com)                                            |
 | 8023 | [insights.ubuntu.com](https://github.com/canonical-websites/insights.ubuntu.com/)                 |
 | 8024 | [netplan.io](https://github.com/canonical-websites/netplan.io/)                                   |
+| 8025 | [360](https://github.com/ubuntudesign/360/)                                                       |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework)                       |
 | 8102 | [vanilla-framework-react](https://github.com/vanilla-framework/vanilla-framework-react)           |
 | 8201 | [phone-docs](https://github.com/canonical-docs/phone-docs/)                                       |
