@@ -31,5 +31,6 @@ A collection of documents that describe best practices for Canonical web team.
   - [deploy](workflow/deploy.md): How to deploy a website to production (on Kubernetes)
   - [github](workflow/github.md): How to contribute to our GitHub projects
   - [labels](workflow/labels.md): The standard labels used in our GitHub projects
+  - [qa-steps](workflow/qa-steps.md): Recommendations for common QA steps when reviewing PRs
 - [CONTRIBUTING](CONTRIBUTING.md): How to contribute to this practices repository itsemf
 - [README](README.md): About this practices repository (this document)
