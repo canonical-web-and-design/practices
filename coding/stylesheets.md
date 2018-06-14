@@ -54,23 +54,23 @@ the component is prefixed with the component name. For example:
 The should be achieved by referencing parent selectors using the
 ampersand character.
 
+New code should be written using the full class names, to enable findability and to lower the cognitive load of navigating a medium to large partial. For example:
+
 ```
 .user {
-
-    &__image {
-    
     …
-    
-    }
-
-    &__name {
-    
-    …
-    
-    }
-
 }
+
+.user__image {
+    …
+}
+
+.user__image--small {
+    …
+}
+
 ```
+
 
 Targeting elements
 ------------------
@@ -156,15 +156,15 @@ Example of a component with nested elements:
 <nav class="nav">
 
     <ul class="nav__list">
-    
+
         <li class="nav__list-item">
             <a href="#" class="nav__link">Link</a>
         <li>
-        
+
         <li class="nav__list-item">
             <a href="#" class="nav__link--promo">Promo</a>
         </li>
-    
+
     </ul>
 
 </nav>
