@@ -51,9 +51,6 @@ the component is prefixed with the component name. For example:
 </div>
 ```
 
-The should be achieved by referencing parent selectors using the
-ampersand character.
-
 New code should be written using the full class names, to enable findability and to lower the cognitive load of navigating a medium to large partial. For example:
 
 ```
