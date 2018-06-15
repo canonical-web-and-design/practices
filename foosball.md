@@ -22,7 +22,5 @@ Outlined below are the official Canonical webteam rules for foosball:
 
 - *This rule is purely theoretical, and should not be used on real human beings*
 
-**"Lifting"**: When lifting the table, the lifting player must say "lifting", or "hoisting"
-
-- *Warning*: If you don't conform to this rule, other players may disapprove
+**"Lifting"**: When the ball can not be reached by any players, the table must be lifted by the team whose half the ball is in. Play is stopped until the table is back on the ground.
 
