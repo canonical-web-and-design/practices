@@ -42,6 +42,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8203 | [maas-docs](https://github.com/canonicalltd/maas-docs)                                            |
 | 8204 | [conjure-up-docs](https://github.com/canonical-docs/conjure-up-docs)                              |
 | 8205 | [juju-docs](https://github.com/juju/docs)                                                         |
+| 8206 | [security-certs-docs](https://github.com/CanonicalLtd/security-certs-docs)                        |
 
 ## Why use a fixed port
 
