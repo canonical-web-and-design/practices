@@ -2,8 +2,6 @@
 This document outlines the rules for writing Javascript documents and fragments across all of our codebases.
 
 ## General rules
-- Javascript should progressively enhance a page. Core content and functionality should still be available without Javascript.
-- Variable names should be camelCase
 - Avoid abbreviated or deliberately short names (choose `query` over `q`).
 - If comments are required, they should be inline and above the Javascript they relate to.
 - Javascript code should be indented by two spaces.
