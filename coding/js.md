@@ -1,12 +1,12 @@
 # JS code standards
 This document outlines the rules for writing Javascript documents and fragments across all of our codebases.
 
-## General rules
- - Javascript should progressively enhance a page where possible and core content and functionality should still be available without Javascript. The exception to this, is in the case of non-isomorphic SPAs where this is not technically feasible.
-- Variable names should be camelCase
-- Avoid abbreviated or deliberately short names (choose `query` over `q`).
-- If comments are required, they should be inline and above the Javascript they relate to.
-- Javascript code should be indented by two spaces.
+## Style
+Js should be written using [AirBnB](https://github.com/airbnb/javascript) style. New projects can adhere to this by selecting 'AirBnB' during `eslint init`, and existing projects can find the relevant eslint config in [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
+
+## Progressive Enhancement
+Javascript should progressively enhance a page. Core content and functionality should still be available without Javascript.
+The exception to this, is in the case of non-isomorphic SPAs where this is not technically feasible.
 
 ## Element hooks
 We should target page element in Javascript using the `data-js` element attribute instead of using the class attribute. Classnames should be used for styling only.
@@ -21,5 +21,4 @@ e.g. `<a data-js="index-link" href="/index">Index</a>`
 
 ### References
 - [http://jstherightway.org/](http://jstherightway.org/)
-- [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 - [http://eloquentjavascript.net/](http://eloquentjavascript.net/)
