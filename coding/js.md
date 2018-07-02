@@ -4,6 +4,9 @@ This document outlines the rules for writing Javascript documents and fragments 
 ## Style
 Js should be written using [AirBnB](https://github.com/airbnb/javascript) style. New projects can adhere to this by selecting 'AirBnB' during `eslint init`, and existing projects can find the relevant eslint config in [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 
+## Progressive Enhancement
+Javascript should progressively enhance a page. Core content and functionality should still be available without Javascript.
+
 ## Element hooks
 We should target page element in Javascript using the `data-js` element attribute instead of using the class attribute. Classnames should be used for styling only.
 
