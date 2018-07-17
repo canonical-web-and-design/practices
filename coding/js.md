@@ -12,7 +12,7 @@ On all publicly accessible websites, core content and functionality should still
 
 We should target page element in Javascript using the `data-js` element attribute instead of using the class attribute. Classnames should be used for styling only.
 
-e.g. `<a data-js="index-link" href="/index">Index</a>`
+e.g. `<a data-js="index-link" href="/index">Index</a>`.
 
 ## Performance
 
@@ -23,7 +23,7 @@ e.g. `<a data-js="index-link" href="/index">Index</a>`
 
 ## Style
 
-See [code-formatting](code-formatting.md)
+See [code-formatting](code-formatting.md).
 
 ### References
 
