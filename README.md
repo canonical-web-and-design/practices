@@ -15,6 +15,7 @@ A collection of documents that describe best practices for Canonical web team.
   - [html](coding/html.md): Code style standards for HTML
   - [js](coding/js.md): Code style standards for JavaScript
   - [stylesheets](coding/stylesheets.md): Code style standards for CSS and Sass
+  - [code-formatting](coding/code-formatting.md): A standard way to format code across all projects
 - [content](content): Practices and recommendations for content
   - [copy-reviews](content/copy-reviews.md): A checklist for reviewing written content
 - [design](design): Practices and recommendations for design
@@ -32,5 +33,5 @@ A collection of documents that describe best practices for Canonical web team.
   - [github](workflow/github.md): How to contribute to our GitHub projects
   - [labels](workflow/labels.md): The standard labels used in our GitHub projects
   - [qa-steps](workflow/qa-steps.md): Recommendations for common QA steps when reviewing PRs
-- [CONTRIBUTING](CONTRIBUTING.md): How to contribute to this practices repository itsemf
+- [CONTRIBUTING](CONTRIBUTING.md): How to contribute to this practices repository itself
 - [README](README.md): About this practices repository (this document)
