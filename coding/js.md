@@ -23,7 +23,7 @@ e.g. `<a data-js="index-link" href="/index">Index</a>`
 
 ## Style
 
-See [code-formatting](../coding/code-formatting.md)
+See [code-formatting](code-formatting.md)
 
 ### References
 
