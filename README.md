@@ -17,6 +17,7 @@ A collection of documents that describe best practices for Canonical web team.
   - [stylesheets](coding/stylesheets.md): Code style standards for CSS and Sass
 - [content](content): Practices and recommendations for content
   - [copy-reviews](content/copy-reviews.md): A checklist for reviewing written content
+  - [filenames](content/filenames.md): Filename recommendations for files linked from websites
 - [design](design): Practices and recommendations for design
   - [vanilla-design-specs](design/vanilla-design-specs.md): When to include when writing a design spec for a Vanilla pattern
 - [foosball](foosball.md): Basic rules to achieve maximum enjoyment while playing of The Great Game
