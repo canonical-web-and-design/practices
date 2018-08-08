@@ -38,6 +38,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8026 | [multipass.io](https://github.com/canonical-websites/multipass.io)                                |
 | 8027 | [microk8s.io](https://github.com/canonical-websites/microk8s.io)                                  |
 | 8028 | [mir-server.io](https://github.com/canonical-websites/mir-server.io)                              |
+| 8029 | [jaas.ai](https://github.com/canonical-websites/jaas.ai)                                          |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework)                       |
 | 8102 | [vanilla-framework-react](https://github.com/vanilla-framework/vanilla-framework-react)           |
 | 8201 | [phone-docs](https://github.com/canonical-docs/phone-docs/)                                       |
