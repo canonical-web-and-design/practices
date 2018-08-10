@@ -34,5 +34,7 @@ A collection of documents that describe best practices for Canonical web team.
   - [github](workflow/github.md): How to contribute to our GitHub projects
   - [labels](workflow/labels.md): The standard labels used in our GitHub projects
   - [qa-steps](workflow/qa-steps.md): Recommendations for common QA steps when reviewing PRs
+- [solutions](solutions): Patterns for solving specific sorts of problems
+  - [documentation](solutions/documentation.md): Patterns for serving documentation pages to our communities and clients
 - [CONTRIBUTING](CONTRIBUTING.md): How to contribute to this practices repository itself
 - [README](README.md): About this practices repository (this document)
