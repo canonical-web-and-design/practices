@@ -56,6 +56,6 @@ We will use a standard Python package, which we maintain, in each of our sites t
 - Pull the "cooked" markup for the documentation page from Discourse, so the Discourse installation remains in control of parsing the markdown content.
   - Content will be pulled live (with some caching) so that changes to the content on Discourse will be reflected without significant delay.
 - Extract the navigation and convert URL links to other Discourse forum posts into links that will work for the website
-- Otherwise perform no additional post-processing of the "cooked" markup
-- Wrap the documentation in the HTMl template for the site, and apply our standard set of styling
+- Otherwise, perform no additional post-processing of the "cooked" markup
+- Wrap the documentation in the HTML template for the site, and apply our standard set of styling
 
