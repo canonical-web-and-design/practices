@@ -41,7 +41,7 @@ Please spend a while here.
 
 Every effort should be made to keep one canonical set of documentation. When there are differences between software versions that impact the documentation, these differences should be mentioned inline in the document - e.g. "Note: In v1.2 and below, the 'network' tab was called 'connections'".
 
-If branches of documentation must be created, e.g. when a new major version of software is released, additional categories can be created for the old version - e.g. `docs-v1` alongside `docs-latest`. The title of this older content should contain the version number - e.g. `v1: Getting started`.
+If branches of documentation must be created, e.g. when a new major version of the software is released, additional categories can be created for the old version - e.g. `docs-v1` alongside `docs-latest`. The title of this older content should contain the version number - e.g. `v1: Getting started`.
 
 #### Plugins
 
@@ -56,6 +56,6 @@ We will use a standard Python package, which we maintain, in each of our sites t
 - Pull the "cooked" markup for the documentation page from Discourse, so the Discourse installation remains in control of parsing the markdown content.
   - Content will be pulled live (with some caching) so that changes to the content on Discourse will be reflected without significant delay.
 - Extract the navigation and convert URL links to other Discourse forum posts into links that will work for the website
-- Otherwise perform no additional post-processing of the "cooked" markup
-- Wrap the documentation in the HTMl template for the site, and apply our standard set of styling
+- Otherwise, perform no additional post-processing of the "cooked" markup
+- Wrap the documentation in the HTML template for the site, and apply our standard set of styling
 
