@@ -25,7 +25,7 @@ A collection of documents that describe best practices for Canonical web team.
 - [local-development](local-development): Guides and information about running our applications locally
   - [ports](local-development/ports.md): The local ports used when running our applications locally
   - [the-run-script](local-development/the-run-script.md): How to run easily run our applications locally using the `./run` script
-- [podcasts](podcasts.md): Some recommended podcasts
+- [podcasts](podcasts.md): Some suggested podcasts
 - [project-management](project-management): Practices for managing projects within our squads
   - [fibonacci-estimation-guide](project-management/fibonacci-estimation-guide.md): Guidelines for using points to estimate tasks
   - [stand-ups](project-management/stand-ups.md): How to run stand-ups in team squads

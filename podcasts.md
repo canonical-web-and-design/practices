@@ -1,6 +1,6 @@
 # Podcasts
 
-Here is a list of recommended podcasts:
+Here is a list of suggested podcasts:
 
 ## General web
 - [Fixate](https://fixate.it/podcast/)
