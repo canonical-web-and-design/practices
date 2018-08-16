@@ -2,6 +2,9 @@
 
 Here is a list of suggested podcasts:
 
+## Design/UX
+- [Style guides](http://styleguides.io/podcast/)
+
 ## General web
 - [Coding blocks](https://www.codingblocks.net/)
 - [Fixate](https://fixate.it/podcast/)
