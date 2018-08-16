@@ -3,6 +3,7 @@
 Here is a list of suggested podcasts:
 
 ## General web
+- [Coding blocks](https://www.codingblocks.net/)
 - [Fixate](https://fixate.it/podcast/)
 - [ShopTalk Show](http://shoptalkshow.com/)
 - [Syntax](https://syntax.fm/)
@@ -15,6 +16,9 @@ Here is a list of suggested podcasts:
 - [Python bytes](https://pythonbytes.fm/)
 - [Talk Python to me](https://talkpython.fm/)
 - [Test and code](http://testandcode.com/)
+
+## Security
+- [Security now](https://twit.tv/shows/security-now)
 
 ## Ubuntu/linux
 - [Late Night Linux](https://latenightlinux.com/)
