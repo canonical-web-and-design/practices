@@ -10,6 +10,7 @@ Here is a list of suggested podcasts:
 - [Fixate](https://fixate.it/podcast/)
 - [ShopTalk Show](http://shoptalkshow.com/)
 - [Syntax](https://syntax.fm/)
+- [Full Stack Radio](http://www.fullstackradio.com/)
 
 ## JavaScript
 - [JavaScript Jabber](https://devchat.tv/js-jabber/)
@@ -26,3 +27,4 @@ Here is a list of suggested podcasts:
 ## Ubuntu/linux
 - [Late Night Linux](https://latenightlinux.com/)
 - [Ubuntu podcast](http://ubuntupodcast.org/)
+- [Bad Voltage](https://www.badvoltage.org/) - with two ex-Canonicalers
