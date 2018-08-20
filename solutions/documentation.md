@@ -43,6 +43,30 @@ Every effort should be made to keep one canonical set of documentation. When the
 
 If branches of documentation must be created, e.g. when a new major version of software is released, additional categories can be created for the old version - e.g. `docs-v1` alongside `docs-latest`. The title of this older content should contain the version number - e.g. `v1: Getting started`.
 
+#### Base level categories
+This is the list of recommended base categories for our product discourses. These may be expanded but should be discoursed in the private Staff cateogory.  
+
+##### News
+A place for announcements and news about the product.
+
+##### General discussions
+Discussions about the product. 
+
+##### Guides
+Guides to help use and develop the product.
+
+##### Social
+Relaxed discussions loosely based on the product.
+
+##### Feedback and bugs
+Seeking help or found an issue with the product.
+
+##### Docs
+The product latest documentation.
+
+##### Staff (private)
+The category for discussing processes and administrative topics.
+
 #### Plugins
 
 The owners of each Discourse installation ultimately decide how it should be managed. However, we discourage the use of plugins in Discourse, as it's easier to manage multiple Discourse installations if they remain as similar as possible.
