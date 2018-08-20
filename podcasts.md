@@ -29,3 +29,6 @@ Here is a list of suggested podcasts:
 - [Late Night Linux](https://latenightlinux.com/)
 - [Ubuntu podcast](http://ubuntupodcast.org/)
 - [Bad Voltage](https://www.badvoltage.org/) - with two ex-Canonicalers
+
+## Work / time management
+- [Cortex](https://www.relay.fm/cortex)
