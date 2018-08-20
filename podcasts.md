@@ -28,4 +28,4 @@ Here is a list of suggested podcasts:
 - [Late Night Linux](https://latenightlinux.com/)
 - [Ubuntu podcast](http://ubuntupodcast.org/)
 - [Bad Voltage](https://www.badvoltage.org/) - with two ex-Canonicalers
-- [Linux Unplugged](http://linuxunplugged.com/) - The presenter is a little annoying, but they have some interesting insights. They were also the people at the New York rally who were wandering around with cameras.
+- [Linux Unplugged](http://linuxunplugged.com/)
