@@ -14,6 +14,7 @@ A collection of documents that describe best practices for Canonical web team.
   - [browser-support](coding/browser-support.md): The browsers we officially support in our CSS and JavaScript
   - [html](coding/html.md): Code style standards for HTML
   - [js](coding/js.md): Code style standards for JavaScript
+  - [react](coding/react.md): Code style standards for React components and applications
   - [stylesheets](coding/stylesheets.md): Code style standards for CSS and Sass
   - [code-formatting](coding/code-formatting.md): A standard way to format code across all projects
 - [content](content): Practices and recommendations for content
