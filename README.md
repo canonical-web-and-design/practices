@@ -32,7 +32,7 @@ A collection of documents that describe best practices for Canonical web team.
   - [stand-ups](project-management/stand-ups.md): How to run stand-ups in team squads
   - [zenhub](project-management/zenhub.md): How to use Zenhub in team squads
 - [workflow](workflow): How to work on our GitHub projects and deploy them to Kubernetes
-  - [deploy](workflow/deploy.md): How to deploy a website to production (on Kubernetes)
+  - [deploy](workflow/deploy.md): Methods and principles for deploying projects
   - [github](workflow/github.md): How to contribute to our GitHub projects
   - [labels](workflow/labels.md): The standard labels used in our GitHub projects
   - [qa-steps](workflow/qa-steps.md): Recommendations for common QA steps when reviewing PRs
