@@ -15,6 +15,7 @@ Here is a list of suggested podcasts:
 
 ## JavaScript
 - [JavaScript Jabber](https://devchat.tv/js-jabber/)
+- [Real Talk JavaScript](https://realtalkjavascript.simplecast.fm/)
 
 ## Python
 - [Podcast init](https://www.podcastinit.com/)
