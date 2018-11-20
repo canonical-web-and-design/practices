@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 BEM coding standard
 ===================
 

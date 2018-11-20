@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # JS code standards
 
 This document outlines the rules for writing Javascript documents and fragments across all of our codebases.

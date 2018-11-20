@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Code formatting
 
 To ensure consistency across our codebases, we utilise [Prettier](https://github.com/prettier/prettier).

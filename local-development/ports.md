@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Default ports for website projects
 
 Each of [our website projects](https://github.com/canonical-websites/) is configured to run on a different port by default.

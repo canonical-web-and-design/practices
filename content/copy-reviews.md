@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Copy reviews
 
 Use this list to review the copy on Canonical and Ubuntu sites and web apps.
