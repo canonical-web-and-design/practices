@@ -6,13 +6,23 @@ layout: base
 
 This document outlines our standards for writing React applications.
 
-## Starter Project
+## Starting a new Project
+We recommend [create-react-app](https://github.com/facebook/create-react-app) for bootstrapping a new project, and avoid ejecting as long as feasible.
 
-[canonical-webteam/react-starter](https://github.com/canonical-webteam/react-starter) provides a codified
-example of our standards for react projects (Prettier, AirBnB style).
+### Preferred libraries
+* routing - [react-router](https://github.com/ReactTraining/react-router)
+* app state management - [redux](https://redux.js.org)
+* component testing - [enzyme](https://github.com/airbnb/enzyme)
+* code formatting - [prettier](https://prettier.io) - We realise that not everyone will agree on the choices that Prettier makes, however feel consistency is ultimately more valuable. As has been said in the golang community, "gofmt's style is no one's favorite, yet gofmt is everyone's favorite".
+* linting - [eslint & airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 
-As much as possible, this project should reflect our standards for React applications. Please make pull requests
-to this project if you feel something should change.
+If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
+
+### Reference projects
+[CRBS-UI](https://git.launchpad.net/~crbs/crbs/+git/crbs-ui/tree/), while under active development, probably best reflects our standards for react projects currently.
+
+[canonical-webteam/react-starter](https://github.com/canonical-webteam/react-starter) was created to provide a codified
+example of our standards for react projects (Prettier, AirBnB style), and while potentially still a useful reference, may not accurately reflect some of the choices we've made in real-world projects.
 
 ## File Naming Conventions
 
