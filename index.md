@@ -65,7 +65,9 @@ How to work on our GitHub projects and deploy them to Kubernetes.
 
 Patterns & guidelines for structuring projects.
 
+- [Project philosophy](project-structure/project-philosophy.md): Philosophy for our code projects
+- [General structure](project-structure/general-structure.md): The basic structure for our projects
+- [Server-side frameworks](project-structure/server-side-frameworks.md): Guidelines for choosing the server-side technology for a new project
 - [Ports](/practices/local-development/ports): The local ports used when running our applications locally
 - [The run script](/practices/local-development/the-run-script): How to run easily run our applications locally using the `./run` script
 - [Documentation](/practices/solutions/documentation): Patterns for serving documentation pages to our communities and clients
-- [Choosing a framework](project-structure/choosing-a-framework.md): Guidelines for choosing the technology and structure for a new project
