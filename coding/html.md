@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # HTML code standards
 This document outlines the rules for writing HTML documents and fragments across all of our codebases.
 

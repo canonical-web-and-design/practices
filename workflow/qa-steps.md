@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # QA steps
 
 In this section you will find a list of steps to take when reviewing PRs, in order to catch unforeseen regressions.

@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Working with ZenHub
 
 [ZenHub](https://zenhub.com/) is "agile project management within Github".

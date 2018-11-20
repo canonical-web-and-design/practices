@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Working on GitHub
 
 This document outlines the rules to contribute and to create issues to a project on the organisation [Canonical-websites](https://github.com/canonical-websites/)

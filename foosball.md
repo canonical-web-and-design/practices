@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # The team foosball rules
 
 Outlined below are the official Canonical webteam rules for foosball:

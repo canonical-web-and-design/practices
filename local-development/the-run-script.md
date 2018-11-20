@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Running our projects with the ./run script
 
 Each of our projects should conform to exactly the same local development interface,

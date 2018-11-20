@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # React coding standards
 
 This document outlines our standards for writing React applications.

@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Vanilla patterns design specs
 
 This document describes what to include when writing a Vanilla pattern design spec.

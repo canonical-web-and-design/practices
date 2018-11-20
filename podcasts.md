@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Podcasts
 
 Here is a list of suggested podcasts:
