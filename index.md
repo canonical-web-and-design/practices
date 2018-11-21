@@ -14,7 +14,7 @@ A collection of documents that describe best practices for Canonical web team.
 
 ## Coding
 
-Style guides and practices for writing code
+Style guides and practices for writing code.
 
 - [Browser support](/practices/coding/browser-support): The browsers we officially support in our CSS and JavaScript
 - [HTML](/practices/coding/html): Code style standards for HTML
@@ -25,32 +25,28 @@ Style guides and practices for writing code
 
 ## Content
 
-Practices and recommendations for content
+Practices and recommendations for content.
 
 - [Copy reviews](/practices/content/copy-reviews): A checklist for reviewing written content
 - [Filenames](/practices/content/filenames): Filename recommendations for files linked from websites
 
 ## Design
 
-Practices and recommendations for design
+Practices and recommendations for design.
 
 - [Vanilla design specs](/practices/design/vanilla-design-specs): When to include when writing a design spec for a Vanilla pattern
 
 ## [Foosball](/practices/foosball)
 
-Basic rules to achieve maximum enjoyment while playing of The Great Game
+Basic rules to achieve maximum enjoyment while playing of The Great Game.
 
-## Local-development
+## [Podcasts](/practices/podcasts)
 
-Guides and information about running our applications locally
-
-- [Ports](/practices/local-development/ports): The local ports used when running our applications locally
-- [The run script](/practices/local-development/the-run-script): How to run easily run our applications locally using the `./run` script
-- [Podcasts](/practices/podcasts): Some suggested podcasts
+Some suggested podcasts.
 
 ## Project-management
 
-Practices for managing projects within our squads
+Practices for managing projects within our squads.
 
 - [Fibonacci estimation guide](/practices/project-management/fibonacci-estimation-guide): Guidelines for using points to estimate tasks
 - [Stand ups](/practices/project-management/stand-ups): How to run stand-ups in team squads
@@ -58,15 +54,20 @@ Practices for managing projects within our squads
 
 ## Workflow
 
-How to work on our GitHub projects and deploy them to Kubernetes
+How to work on our GitHub projects and deploy them to Kubernetes.
 
 - [Deploy](/practices/workflow/deploy): Methods and principles for deploying projects
 - [Github](/practices/workflow/github): How to contribute to our GitHub projects
 - [Labels](/practices/workflow/labels): The standard labels used in our GitHub projects
-- [Qa steps](/practices/workflow/qa-steps): Recommendations for common QA steps when reviewing PRs
+- [QA steps](/practices/workflow/qa-steps): Recommendations for common QA steps when reviewing PRs
 
-## Solutions
+## Project structure
 
-Patterns for solving specific sorts of problems
+Patterns & guidelines for structuring projects.
 
+- [Project philosophy](project-structure/project-philosophy.md): Philosophy for our code projects
+- [General structure](project-structure/general-structure.md): The basic structure for our projects
+- [Server-side frameworks](project-structure/server-side-frameworks.md): Guidelines for choosing the server-side technology for a new project
+- [Ports](/practices/local-development/ports): The local ports used when running our applications locally
+- [The run script](/practices/local-development/the-run-script): How to run easily run our applications locally using the `./run` script
 - [Documentation](/practices/solutions/documentation): Patterns for serving documentation pages to our communities and clients
