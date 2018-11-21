@@ -46,7 +46,7 @@ Practices for managing projects within our squads:
 
 ## Project structure
 
-Patterns & guidelines for structuring projects:
+Patterns and guidelines for structuring projects:
 
 - [Project philosophy](project-structure/project-philosophy.md): Philosophy for our code projects
 - [General structure](project-structure/general-structure.md): The basic structure for our projects
