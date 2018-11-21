@@ -129,6 +129,14 @@
               toggle.classList.toggle('p-icon--close');
               sidebarContent.classList.toggle('u-hide--small');
             });
+
+            // Add active class to sidebar nav
+            var navLinks = document.querySelectorAll('.p-sidebar-nav__item > .p-link--soft');
+            navLinks.forEach(function(link) {
+              if (link.getAttribute("href") === window.location.pathname) {
+                link.className += " is-active";
+              }
+            });
           </script>
         </div>
       </aside>
