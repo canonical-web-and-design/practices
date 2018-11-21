@@ -1,6 +1,6 @@
-# Guidelines for contributing to webteam-practices
+# Guidelines for contributing to these practices
 
-This repository contains best practices specifically for the Canonical Webteam. The documents contained here should remain concise and of a high quality.
+This repository contains best practices specifically for the Canonical web and design team. The documents contained here should remain concise and of a high quality.
 
 Anyone is welcome to suggest improvements in one of two ways:
 
