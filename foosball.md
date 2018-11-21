@@ -4,7 +4,7 @@ layout: base
 
 # The team foosball rules
 
-Outlined below are the official Canonical webteam rules for foosball:
+Outlined below are the team's official rules for foosball:
 
 ## Doubles rules
 
