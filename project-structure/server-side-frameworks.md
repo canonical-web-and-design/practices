@@ -8,7 +8,7 @@ These are our suggested server-side technologies to use for website applications
 
 ## Static site generators
 
-For a basic website that doesn't require any dynamic processing on the server, using a [static site generator](https://davidwalsh.name/introduction-static-site-generators) is recommended. Flat HTML pages will be generated at build time, leading to a deployment payload that is simply a flat collection of HTML files to be served with a simple HTTP server - usually Nginx.
+For a basic website that doesn't require any dynamic processing on the server, using a [static site generator](https://davidwalsh.name/introduction-static-site-generators) is recommended. Flat HTML pages will be generated at build time, leading to a deployment payload that is simply a flat collection of HTML files to be served with a simple HTTP server - usually [Nginx](https://nginx.org/en/).
 
 This simple structure has key benefits over a dynamic application in:
 
@@ -38,7 +38,7 @@ When you need logical processing on the server, you'll need a dynamic applicatio
 - Websites with a database back-end (e.g. a CMS like [partners.ubuntu.com](https://partners.ubuntu.com))
 - Websites that retrieve their core content from an API (e.g. [snapcraft.io](https://snapcraft.io), [blog.ubuntu.com](https://blog.ubuntu.com))
 
-Many websites may needs to pull in related content from APIs - e.g. to show a list of related blog posts within a page. If the API content isn't central to the core application, this is usually best achieved with a client-side solution using JavaScript. This can gracefully degrade if the API cannot be reached without delaying or breaking the rest of the application. In these cases, you may not need a dynamic application.
+Many websites may need to pull in related content from APIs - e.g. to show a list of related blog posts within a page. If the API content isn't central to the core application, this is usually best achieved with a client-side solution using JavaScript. This can gracefully degrade if the API cannot be reached without delaying or breaking the rest of the application. In these cases, you may not need a dynamic application.
 
 For dynamic server-side applications, our preferred language is [Python](https://www.python.org/), a mature language with a clear focus on ease-of-use and friendliness and extensive support for web development. Our expertise is in Python, but we remain open to exploring other languages if sensible opportunities arise.
 
