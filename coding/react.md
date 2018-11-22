@@ -4,15 +4,33 @@ layout: base
 
 # React coding standards
 
-This document outlines our standards for writing React applications.
+This document outlines our standards for writing React applications and components.
 
-## Starter Project
+## Starting a new React Project
+When starting a new react application, we recommend [create-react-app](https://github.com/facebook/create-react-app) for bootstrapping the project. Avoid [ejecting](https://facebook.github.io/create-react-app/docs/available-scripts#npm-run-eject) as long as feasible to make updating dependencies easier.
 
-[canonical-webteam/react-starter](https://github.com/canonical-webteam/react-starter) provides a codified
-example of our standards for react projects (Prettier, AirBnB style).
+### Preferred libraries
+All projects should generally use the following:
 
-As much as possible, this project should reflect our standards for React applications. Please make pull requests
-to this project if you feel something should change.
+* unittest framework - [jest](https://jestjs.io)
+* component testing - [enzyme](https://github.com/airbnb/enzyme)
+
+Refer to [code-formatting](code-formatting.md) for recommended tools for linting and formatting.
+
+If you require routing, or state management:
+
+* routing - [react-router](https://github.com/ReactTraining/react-router)
+* app state management - [redux](https://redux.js.org)
+
+If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
+
+### Reference projects
+[CRBS-UI](https://git.launchpad.net/~crbs/crbs/+git/crbs-ui/tree/), while under active development, probably best reflects our standards for react projects currently.
+
+[build.snapcraft.io](https://github.com/canonical-websites/build.snapcraft.io) - a bit dated, but first fully React centred project in our webteam. Our first use or React, server-side rendering, Redux, Enzyme, etc. While it doesn't fully follow our current standards it may be a good place to check how some of these libraries were used.
+
+[canonical-webteam/react-starter](https://github.com/canonical-webteam/react-starter) was created to provide a codified
+example of our standards for react projects (Prettier, AirBnB style), and while potentially still a useful reference, may not accurately reflect some of the choices we've made in real-world projects.
 
 ## File Naming Conventions
 
