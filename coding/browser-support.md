@@ -3,7 +3,7 @@ title: Browser support
 description: The browsers we officially support in our CSS and JavaScript
 ---
 
-Our baseline browser support for our websites. There are two levels of support. 
+Our baseline browser support for our websites. There are two levels of support.
 
 ## Full support
 
@@ -11,12 +11,12 @@ Any browser with full support needs to be pixel perfect and all functionality sh
 
 | Browser | Version |
 | ------- | ------- |
-| Chrome | 55 or greater |
-| Firefox | 52 or greater |
-| Safari | 11 or greater |
+| Chrome | Should work 3 major versions back |
+| Firefox | Should work 3 major versions back |
+| Safari | latest |
 | IE | 11 or greater |
-| Edge | 15 or greater |
-| Opera | 48 or greater |
+| Edge | Latest |
+| Opera | Should work 3 major versions back |
 
 ## Accessible support
 
