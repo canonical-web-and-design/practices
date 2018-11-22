@@ -4,10 +4,10 @@ layout: base
 
 # React coding standards
 
-This document outlines our standards for writing React applications.
+This document outlines our standards for writing React applications and components.
 
-## Starting a new Project
-We recommend [create-react-app](https://github.com/facebook/create-react-app) for bootstrapping a new project, and avoid ejecting as long as feasible.
+## Starting a new React Project
+When starting a new react application, we recommend [create-react-app](https://github.com/facebook/create-react-app) for bootstrapping the project. Avoid [ejecting](https://facebook.github.io/create-react-app/docs/available-scripts#npm-run-eject) as long as feasible to make updating dependencies easier.
 
 ### Preferred libraries
 All projects should generally use the following:
