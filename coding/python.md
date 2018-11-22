@@ -9,7 +9,7 @@ This document outlines the rules for writing Python code across all our Projects
 ## Code style and formatting
 
 All code must conform to [PEP 8](https://pep8.org/) and be formatted with [black](https://github.com/ambv/black) using the option `--line-length 79`.
-Any pull requests that do no conform to this should be rejected by the CI.
+Project should be configured to block merging on pull requests that do not conform to these standards.
 
 ## Testing
 
