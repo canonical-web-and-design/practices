@@ -214,4 +214,4 @@ should never have styling and behaviour bound to the same classes.
 
 Code Formatting
 ===============
-To ensure consistency across our codebases, we use [Prettier](https://github.com/prettier/prettier) for formatting sass.
+To ensure consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier) for formatting sass.
