@@ -10,11 +10,16 @@ This document outlines our standards for writing React applications.
 We recommend [create-react-app](https://github.com/facebook/create-react-app) for bootstrapping a new project, and avoid ejecting as long as feasible.
 
 ### Preferred libraries
-* routing - [react-router](https://github.com/ReactTraining/react-router)
-* app state management - [redux](https://redux.js.org)
+All projects should generally use the following:
+
 * component testing - [enzyme](https://github.com/airbnb/enzyme)
 * code formatting - [prettier](https://prettier.io) - We realise that not everyone will agree on the choices that Prettier makes, however feel consistency is ultimately more valuable. As has been said in the golang community, "gofmt's style is no one's favorite, yet gofmt is everyone's favorite".
 * linting - [eslint & airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+
+If you require routing, or state management:
+
+* routing - [react-router](https://github.com/ReactTraining/react-router)
+* app state management - [redux](https://redux.js.org)
 
 If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
 
