@@ -12,9 +12,10 @@ When starting a new react application, we recommend [create-react-app](https://g
 ### Preferred libraries
 All projects should generally use the following:
 
+* unittest framework - [jest](https://jestjs.io)
 * component testing - [enzyme](https://github.com/airbnb/enzyme)
-* code formatting - [prettier](https://prettier.io) - We realise that not everyone will agree on the choices that Prettier makes, however feel consistency is ultimately more valuable. As has been said in the golang community, "gofmt's style is no one's favorite, yet gofmt is everyone's favorite".
-* linting - [eslint & airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+
+Refer to [code-formatting](code-formatting.md) for recommended tools for linting and formatting.
 
 If you require routing, or state management:
 
