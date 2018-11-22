@@ -21,6 +21,8 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 ### Reference projects
 [CRBS-UI](https://git.launchpad.net/~crbs/crbs/+git/crbs-ui/tree/), while under active development, probably best reflects our standards for react projects currently.
 
+[build.snapcraft.io](https://github.com/canonical-websites/build.snapcraft.io) - a bit dated, but first fully React centred project in our webteam. Our first use or React, server-side rendering, Redux, Enzyme, etc. While it doesn't fully follow our current standards it may be a good place to check how some of these libraries were used.
+
 [canonical-webteam/react-starter](https://github.com/canonical-webteam/react-starter) was created to provide a codified
 example of our standards for react projects (Prettier, AirBnB style), and while potentially still a useful reference, may not accurately reflect some of the choices we've made in real-world projects.
 
