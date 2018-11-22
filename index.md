@@ -19,9 +19,8 @@ Style guides and practices for writing code:
 - [Browser support](/practices/coding/browser-support): The browsers we officially support in our CSS and JavaScript
 - [HTML](/practices/coding/html): Code style standards for HTML
 - [JavaScript](/practices/coding/javascript): Code style standards for JavaScript
-- [React](/practices/coding/react): Code style standards for React components and applications
+- [Python](/practices/coding/python): Code style standards for Python
 - [Stylesheets](/practices/coding/stylesheets): Code style standards for CSS and Sass
-- [Code formatting](/practices/coding/code-formatting): A standard way to format code across all projects
 
 ## Content
 
