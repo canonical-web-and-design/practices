@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Web and design team practices
 ---
 

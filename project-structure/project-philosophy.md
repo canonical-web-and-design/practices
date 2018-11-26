@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Philosophy for our code projects
 ---
 

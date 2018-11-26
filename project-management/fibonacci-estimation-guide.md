@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Fibonacci estimation guide
 ---
 

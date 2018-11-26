@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Deploying changes to projects
 ---
 

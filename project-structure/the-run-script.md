@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Running our projects with the ./run script
 ---
 

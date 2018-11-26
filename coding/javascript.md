@@ -1,5 +1,4 @@
 ---
-layout: base
 title: JS code standards
 redirect_from: "/practices/coding/react"
 redirect_from: "/practices/coding/code-formatting"

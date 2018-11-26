@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Vanilla patterns design specs
 ---
 

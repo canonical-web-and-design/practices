@@ -1,5 +1,4 @@
 ---
-layout: base
 title: The basic structure of our projects
 ---
 

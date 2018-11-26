@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Server-side framework suggestions
 ---
 

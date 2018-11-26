@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Working with ZenHub
 ---
 

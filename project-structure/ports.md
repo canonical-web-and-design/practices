@@ -1,5 +1,4 @@
 ---
-layout: base
 title: Default ports for website projects
 ---
 
