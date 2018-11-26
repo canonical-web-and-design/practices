@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Running our projects with the ./run script
 ---
-
-# Running our projects with the ./run script
 
 Each of our projects should conform to exactly the same local development interface,
 which should be documented in the project's `README.md`. This should make it simple

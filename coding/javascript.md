@@ -1,11 +1,14 @@
 ---
 layout: base
+title: JS code standards
+redirect_from: "/practices/coding/react"
+redirect_from: "/practices/coding/code-formatting"
 ---
 
-# JS code standards
 This document outlines the rules for writing JavaScript across our codebase.
 
-## Progressive enhancement
+## Progressive Enhancement
+
 JavaScript should progressively enhance a page.
 
 On all publicly accessible websites, core content and functionality should still be available without JavaScript. JavaScript applications written for a more specific audience which won't be indexed by search engines may be more lax, but should still treat progressive enhancement as a guiding principle.

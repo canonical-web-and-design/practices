@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Web and design team practices
 ---
-
-# Web and design team practices
 
 A collection of documents that describe best practices for Canonical web team.
 

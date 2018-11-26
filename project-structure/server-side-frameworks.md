@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Server-side framework suggestions
 ---
-
-# Server-side framework suggestions
 
 These are our suggested server-side technologies to use for website applications in specific scenarios, which should always sit within the usual [general project structure](general-structure). The focus here is on keeping the application topology [as simple as possible](project-philosophy).
 

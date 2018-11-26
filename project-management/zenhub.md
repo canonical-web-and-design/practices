@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Working with ZenHub
 ---
-
-# Working with ZenHub
 
 [ZenHub](https://zenhub.com/) is "agile project management within Github".
 We use it for all squads in the design team.

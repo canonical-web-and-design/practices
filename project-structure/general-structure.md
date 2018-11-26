@@ -1,8 +1,7 @@
 ---
 layout: base
+title: The basic structure of our projects
 ---
-
-# The basic structure of our projects
 
 Each of our projects follow a similar overall structure, intending to follow [our philosophy for projects](project-philosophy):
 

@@ -1,8 +1,7 @@
 ---
 layout: base
+title: The team foosball rules
 ---
-
-# The team foosball rules
 
 Outlined below are the team's official rules for foosball:
 

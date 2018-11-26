@@ -1,8 +1,7 @@
 ---
 layout: base
+title: Deploying changes to projects
 ---
-
-# Deploying changes to projects
 
 Methods and principles for deploying changes to our projects.
 
