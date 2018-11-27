@@ -210,3 +210,8 @@ developer working with JavaScript, leave these well alone.
 
 The idea is that -- in order to properly separate our concerns, we
 should never have styling and behaviour bound to the same classes.
+
+
+Code Formatting
+===============
+To ensure consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier) for formatting sass.
