@@ -1,5 +1,6 @@
 ---
 title: BEM coding standard
+description: Code style standards for CSS and Sass
 ---
 
 For a quick recap on BEM, it works by breaking down all classes in a

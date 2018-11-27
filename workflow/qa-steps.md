@@ -1,5 +1,6 @@
 ---
 title: QA steps
+description: Recommendations for common QA steps when reviewing PRs
 ---
 
 In this section you will find a list of steps to take when reviewing PRs, in order to catch unforeseen regressions.

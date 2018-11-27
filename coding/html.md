@@ -1,5 +1,6 @@
 ---
 title: HTML code standards
+description: Code style standards for HTML
 ---
 
 This document outlines the rules for writing HTML documents and fragments across all of our codebases.

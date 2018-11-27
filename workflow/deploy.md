@@ -1,5 +1,6 @@
 ---
 title: Deploying changes to projects
+description: Methods and principles for deploying projects
 ---
 
 Methods and principles for deploying changes to our projects.

@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Python code standards
+description: Code style standards for Python
 ---
-
-# Python code standards
 
 This document outlines the rules for writing Python code across all our Projects.
 

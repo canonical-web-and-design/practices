@@ -1,5 +1,6 @@
 ---
 title: The basic structure of our projects
+description: The basic structure for our projects
 ---
 
 Each of our projects follow a similar overall structure, intending to follow [our philosophy for projects](project-philosophy):

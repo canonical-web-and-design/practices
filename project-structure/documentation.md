@@ -1,5 +1,6 @@
 ---
 title: Recommended solutions for Documentation
+description: Patterns for serving documentation pages to our communities and clients
 ---
 
 Patterns for serving documentation pages to our communities and clients.

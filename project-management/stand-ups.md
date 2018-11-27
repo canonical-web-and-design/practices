@@ -1,5 +1,6 @@
 ---
 title: Squad stand-ups
+description: How to run stand-ups in team squads
 ---
 
 Each squad must have a [stand-up meeting](https://en.wikipedia.org/wiki/Stand-up_meeting) every morning, with the possible exception of end-of-iteration demo days.

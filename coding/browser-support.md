@@ -1,5 +1,6 @@
 ---
 title: Browser support
+description: The browsers we officially support in our CSS and JavaScript
 ---
 
 Our baseline browser support for our websites. There are two levels of support. 

@@ -1,5 +1,6 @@
 ---
 title: Working on GitHub
+description: How to contribute to our GitHub projects
 ---
 
 This document outlines the rules to contribute and to create issues to a project on the organisation [Canonical-websites](https://github.com/canonical-websites/)

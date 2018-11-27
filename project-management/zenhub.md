@@ -1,5 +1,6 @@
 ---
 title: Working with ZenHub
+description: How to use Zenhub in team squads
 ---
 
 [ZenHub](https://zenhub.com/) is "agile project management within Github".

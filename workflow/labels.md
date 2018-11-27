@@ -1,5 +1,6 @@
 ---
 title: Labels descriptions
+description: The standard labels used in our GitHub projects
 ---
 
 In this part you will find a description of all the labels we use on issues.
