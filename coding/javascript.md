@@ -3,7 +3,7 @@ layout: base
 ---
 
 # JS code standards
-This document outlines the rules for writing Javascript across our codebase.
+This document outlines the rules for writing JavaScript across our codebase.
 
 ## Progressive enhancement
 JavaScript should progressively enhance a page.
