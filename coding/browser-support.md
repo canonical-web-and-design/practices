@@ -11,12 +11,12 @@ Any browser with full support needs to be pixel perfect and all functionality sh
 
 | Browser | Version |
 | ------- | ------- |
-| Chrome | Should work 3 major versions back |
-| Firefox | Should work 3 major versions back |
-| Safari | latest |
+| Chrome | Should work for the last 3 [stable versions](https://www.chromestatus.com/features/schedule) |
+| Firefox | Should work for the last 3 [stable versions](https://wiki.mozilla.org/Release_Management/Calendar) |
+| Safari | [latest version](https://developer.apple.com/safari/technology-preview/release-notes) |
 | IE | 11 or greater |
 | Edge | Latest |
-| Opera | Should work 3 major versions back |
+| Opera | Should work for the last 3 [stable versions](https://www.opera.com/docs/history/#history) |
 
 ## Accessible support
 
