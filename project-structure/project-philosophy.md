@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Project philosophy
+description: The guiding principles behind our code projects
 ---
-
-# Philosophy for our code projects
 
 We aim to always encourage participation in our projects from both within the company and the general public. We aim to support and grow the communities that surround our work. We do this by creating web applications that are [simple](https://en.wikipedia.org/wiki/KISS_principle) for everyone to understand and use.
 

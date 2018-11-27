@@ -1,8 +1,7 @@
 ---
-layout: base
+title: The team foosball rules
+description: Basic rules to achieve maximum enjoyment while playing of The Great Game
 ---
-
-# The team foosball rules
 
 Outlined below are the team's official rules for foosball:
 

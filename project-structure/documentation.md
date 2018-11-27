@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Recommended solutions for Documentation
+description: Patterns for serving documentation pages to our communities and clients
 ---
-
-# Recommended solutions for Documentation
 
 Patterns for serving documentation pages to our communities and clients.
 

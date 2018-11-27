@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Filenames
+description: Filename recommendations for files linked from websites
 ---
-
-# Filenames
 
 We should carefully consider the filenames of files that we link to from our websites. This helps to accurately describe the file's contents in URLs and if users choose to download the files.
 

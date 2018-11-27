@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Podcasts
+description: Some suggested podcasts
 ---
-
-# Podcasts
 
 Here is a list of suggested podcasts:
 

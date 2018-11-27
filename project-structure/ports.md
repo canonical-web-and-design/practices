@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Default ports for website projects
+description: The local ports used when running our applications locally
 ---
-
-# Default ports for website projects
 
 Each of [our website projects](https://github.com/canonical-websites/) is configured to run on a different port by default.
 This port should be defined in a `.env` file within the project codebase, and

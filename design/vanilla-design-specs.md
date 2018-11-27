@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Vanilla patterns design specs
+description: When to include when writing a design spec for a Vanilla pattern
 ---
-
-# Vanilla patterns design specs
 
 This document describes what to include when writing a Vanilla pattern design spec.
 

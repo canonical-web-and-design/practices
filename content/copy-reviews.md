@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Copy reviews
+description: A checklist for reviewing written content
 ---
-
-# Copy reviews
 
 Use this list to review the copy on Canonical and Ubuntu sites and web apps.
 

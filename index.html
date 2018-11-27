@@ -1,0 +1,33 @@
+---
+title: Web and design practices
+description: A collection of documents that describe best practices for Canonical Web and design team
+---
+
+{% comment %}Get top-level categories{% endcomment %}
+{% assign categories = "" | split: ',' %}
+{% for node in site.pages %}
+  {% assign url_parts = node.url | split: '/' %}
+
+  {% if url_parts.size == 3 %}
+    {% unless categories contains url_parts[1] %}
+    {% assign categories = categories | push: url_parts[1] %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}Iterate through categories{% endcomment %}
+{% assign sorted_categories = categories | sort %}
+{% for category in sorted_categories %}
+  <h2>{{ category | replace: "-", " " | capitalize }}</h2>
+
+  <ul>
+    {% for node in site.pages %}
+      {% assign url_parts = node.url | split: '/' %}
+      {% if url_parts[1] == category %}
+        {% unless node.redirect.to %}
+          <li><a href="/practices{{ node.url }}">{{ node.title }}</a>: {{ node.description }}</li>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

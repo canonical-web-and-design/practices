@@ -1,8 +1,7 @@
 ---
-layout: base
+title: Fibonacci estimation guide
+description: Guidelines for using points to estimate tasks
 ---
-
-# Fibonacci estimation guide
 
 Estimates don’t need to be accurate, they need to be consistent. Our velocity corrects for the inaccuracy of our estimates. Estimates on tasks are meant to be relative to other estimates on tasks. When we think of an estimate, we need to compare the tasks to other tasks in the past in order to evaluate consistently.
 
