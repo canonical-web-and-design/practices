@@ -77,6 +77,8 @@ Here are the steps that need to be completed before merging:
 * All [review labels](./labels.md#review) have to be at +1
 * Your pull request must be approved by at least one person
 * Any automated checks must have passed
+* The original author should merge a pull request
+  * This can be overuled if the author is unavailable and/or the merge is of critical importance
 
 ## Templates
 
