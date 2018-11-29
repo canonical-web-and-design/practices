@@ -5,6 +5,8 @@
 [tbd]
 
 ## Etiquette
-Take care not to block landings for branches that only need minor changes.
 
-If a branch requires a small number of changes, favour approving the branch with a caveat that the issues you've identified are resolved, rather than *needs fixing*[launchpad] or *request changes*[github]. Marking a branch *needs fixing* should be reserved for genuinely broken code, when the author has proposed the wrong solution, or when the code still requires considerable work to be production ready.
+### Approval with suggestions for trivial changes
+In some circumstances, if a branch requires a small number of trivial changes you may approve the branch with the caveat that issues you've identified are resolved or considered, rather than marking the branch *needs fixing* (lp) or *request changes* (gh). These changes should be in the category of minor adjustments to file structure, fixing typos, renamings, small css tweaks etc.
+
+Typically if you have co-workers available to you in your timezone, you should seek an additional review if possible.
