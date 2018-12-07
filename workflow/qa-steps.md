@@ -9,7 +9,7 @@ In this section you will find a list of steps to take when reviewing PRs, in ord
 
 - Assume positive intent, we all have collective responsibility for the code we write - be nice.
 - Avoid expressing subjective opinions without reasoning. If you think something is bad, you need to explain _why_ you think it is bad.
-- Try not to increase the scope of a PR unnecessarily. If a reviewing a PR leads you to unrelated code smells, create a new issue.
+- Try not to increase the scope of a PR unnecessarily. If reviewing a PR leads you to unrelated code smells, create a new issue.
 - Embrace the 'social coding' aspect of Github. If you spot a typo, rather than type a comment explaining where you found the typo and what the correction should be, [suggest the actual code change](https://help.github.com/articles/incorporating-feedback-in-your-pull-request/#applying-a-suggested-change).
 - As above, you can also push refactors and larger code changes back to a PR which the original author can then review.
 - If you engage in a code review, you now have a responsibility to work with the author to get it over the line. Keep an eye out for your feedback being actioned and schedule a re-review in a timely manner.
