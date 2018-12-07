@@ -13,7 +13,9 @@ In this section you will find a list of steps to take when reviewing PRs, in ord
 - Embrace the 'social coding' aspect of Github. If you spot a typo, rather than type a comment explaining where you found the typo and what the correction should be, [suggest the actual code change](https://help.github.com/articles/incorporating-feedback-in-your-pull-request/#applying-a-suggested-change).
 - As above, you can also push refactors and larger code changes back to a PR which the original author can then review.
 - If you engage in a code review, you now have a responsibility to work with the author to get it over the line. Keep an eye out for your feedback being actioned and schedule a re-review in a timely manner.
+- Have an awareness of team cadence. Software Engineering is a endless craft and we can all craft endlessly. Don't let 'perfect' become the enemy of 'good'. 
 - Remember to call out positive changes, not just negative. Are you impressed by the code change proposed? Did you learn a new thing by reviewing a certain change? Let the author know and spread the positivity.
+
 
 ## Adding content
 
