@@ -189,7 +189,7 @@ due to a certain state being invoked.
 
 This allows interactive scripts to simple toggle these classes with
 confidence only state styles will be effect. Leaving component styles
-uneffected.
+unaffected.
 
 JavaScript namespacing
 ----------------------
