@@ -1,6 +1,6 @@
 ---
 title: Vanilla patterns design specs
-description: When to include when writing a design spec for a Vanilla pattern
+description: What to include when writing a design spec for a Vanilla pattern
 ---
 
 This document describes what to include when writing a Vanilla pattern design spec.
@@ -9,7 +9,7 @@ This document describes what to include when writing a Vanilla pattern design sp
 
 Design specs live in the code section of the [Vanilla design repo](https://github.com/ubuntudesign/vanilla-design), or of the corresponding theme's design repo (e.g. [Brochure theme design repo](https://github.com/ubuntudesign/vanilla-brochure-theme-design)).
 
-## Structure 
+## Structure
 
 Each pattern should have its own folder, and include two files:
 - Detailed written spec (.md format)
@@ -20,7 +20,7 @@ Each pattern should have its own folder, and include two files:
 The detailed spec file should include:
 
 - Title of the pattern: e.g. "[Vanilla: Buttons](https://github.com/ubuntudesign/vanilla-design/blob/master/Buttons/buttons.md)" or "[Brochure theme: Buttons](https://github.com/ubuntudesign/vanilla-brochure-theme-design/blob/master/Buttons/buttons.md)"
-- All the properties needed to build the pattern: e.g. font size, text colour, padding, borders, shadows, backgrounds 
+- All the properties needed to build the pattern: e.g. font size, text colour, padding, borders, shadows, backgrounds
 - Where applicable, include responsive variations for different viewports
 - Where applicable, include: hover, active and focused states
 
@@ -33,7 +33,7 @@ Some properties should be defined using Vanilla variables, to maintain consisten
 - [Padding and margins](https://docs.vanillaframework.io/en/settings/spacing-settings)
 - [Animation](https://github.com/vanilla-framework/vanilla-framework/blob/develop/scss/_settings_animations.scss)
 
-Written specs should follow the [Canonical copy style guide](https://github.com/canonical-webteam/practices/blob/master/content/copy-reviews.md). 
+Written specs should follow the [Canonical copy style guide](https://github.com/canonical-webteam/practices/blob/master/content/copy-reviews.md).
 
 ### Visual spec
 
