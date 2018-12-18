@@ -1,9 +1,5 @@
 # Code Review
 
-## Suggestions for Effective Review
-
-[tbd]
-
 ## Etiquette
 
 ### Approval with suggestions for trivial changes
