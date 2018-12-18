@@ -79,6 +79,7 @@ Here are the steps that need to be completed before merging:
 * Any automated checks must have passed
 * The original author should merge a pull request
    * This can be overruled when necessary, only if the author is unavailable
+   * Special care should be taken to ensure there have been no further changes requested
 
 ## Templates
 
