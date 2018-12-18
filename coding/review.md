@@ -3,8 +3,8 @@
 ## Etiquette
 
 ### Approval with suggestions for trivial changes
-In some circumstances, if a branch requires a small number of trivial changes you may approve the branch with the caveat that issues you've identified are resolved or considered, rather than marking the branch *needs fixing* (lp) or *request changes* (gh). These changes should be in the category of minor adjustments to file structure, fixing typos, renamings, small css tweaks etc.
+Reviewers may consider approving a branch with the caveat that issues they've identified are resolved or considered, rather than marking the branch *needs fixing* on Launchpad or *request changes* on GitHub.
 
-If you are the branch author, it is your responsibility to ensure you have addressed these suggestions before merging your branch.
+They may only do this when a branch requires a small number of trivial changes (e.g. moving files, fixing typos, renaming variables, small CSS tweaks), and they have reason to expect that they may block progress by not being available for a second review – e.g. because of different timezones.
 
-Typically if you have co-workers available to you in your timezone, you should seek an additional review if possible.
+It is the branch author's responsibility to ensure they have addressed these suggestions before merging their branch. They still should seek an additional review following their changes wherever possible.
