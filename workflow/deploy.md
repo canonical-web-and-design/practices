@@ -160,7 +160,7 @@ echo ""
 
 ### First deployment
 
-For the first deployement go on the apply job and update the line you added previously. You need to change the variable `TAG_TO_DEPLOY` with the hash of the last commit in the project. 
+For the first deployment go on the apply job and update the line you added previously. You need to change the variable `TAG_TO_DEPLOY` with the hash of the last commit in the project. 
 
 Once this tag is updated you can run the job apply, then staging and if nothing fails production.
 
