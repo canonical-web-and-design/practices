@@ -27,7 +27,7 @@ However, we should be careful about significant changes to the way in which appl
 
 This section will present how to deploy a new service to our instance of Kubernetes.
 
-*To deploy a new website you need to be sure that you are **not** using `bower` and the the run script uses the version **1.** of yarn.*
+*To deploy a new website you need to be sure that you are **not** using `bower` and the the run script uses the version **1.** of Yarn.*
 
 ### Create a dockerfile of your service
 
@@ -68,7 +68,7 @@ Create the **staging** job:
    * Copy from (at the bottom the page): *deploy-to-design.staging.ubuntu.com*
  * Change those parameters on the configuration page:
    * *General* -> *Github project*: insert the Github repository
-   * *Source code management* -> *Repositories* -> *Repository URL*: insert the Github repository
+   * *Source code management* -> *Repositories* -> *Repository URL*: insert the GitHub repository
    * *Build*: Update the script with the rights values
  * Save
 
@@ -76,14 +76,14 @@ Create the **production** job:
 
  * Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
    * Item name: *deploy-to-<PRODUCTION_DNS>*
-   * Copy from (at the bottom the page): *deploy-to-design.ubuntu.com*
+   * Copy from (at the bottom of the page): *deploy-to-design.ubuntu.com*
  * Change those parameters on the configuration page:
    * *Build*: Update the script with the rights values
  * Save
 
 #### Jobs examples
 
-These examples are from the design.ubuntu.com project. Please adapt the sripts before using them:
+These examples are from the design.ubuntu.com project. Please adapt the scripts before using them:
 
 ##### Staging
 
@@ -164,7 +164,7 @@ For the first deployment go on the apply job and update the line you added previ
 
 Once this tag is updated you can run the job apply, then staging and if nothing fails production.
 
-If the DNS is not ready yet add a line to your `/etc/hosts` with the ip of the Kubernetes instance and your DNS.
+If the DNS is not ready yet add a line to your `/etc/hosts` with the IP of the Kubernetes instance and your DNS.
 
 ### Request new certificates
 
