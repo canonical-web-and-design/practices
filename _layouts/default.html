@@ -115,7 +115,7 @@
             {{ content }}
           </div>
         </div>
-        <div class="p-pagination p-content__row">
+        <div class="p-pagination p-content__row u-hide">
           <a class="p-pagination__link--previous" href="">
             <span class="p-pagination__label">Previous</span>
             <span class="p-pagination__title"></span>
@@ -128,12 +128,14 @@
         <script>
           var pagination = document.querySelector('.p-pagination');
 
-          if (pagination) {
+          if (pagination && activeLink) {
             var current = activeLink.parentNode;
             var next = current.nextElementSibling;
             var prev = current.previousElementSibling;
             var paginationNext = pagination.querySelector('.p-pagination__link--next');
             var paginationPrev = pagination.querySelector('.p-pagination__link--previous');
+
+            pagination.classList.remove('u-hide');
 
             // If there is no previous link in the category jump to the
             // previous category if there is one and select the last item.
