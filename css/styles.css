@@ -1310,7 +1310,7 @@ p + h2,
 p + .p-heading--two {
   padding-top: 2.2rem; }
   @media (max-width: 900px) {
-    
+
     p + h2,
     p + .p-heading--two {
       padding-top: 1.6rem; } }
@@ -3816,8 +3816,7 @@ img {
     color: #fff; }
 
 [class^='p-strip'].is-bordered {
-  border-bottom: 1px solid #cdcdcd;
-  margin-bottom: -0.0625rem; }
+  border-bottom: 1px solid #cdcdcd; }
 
 .p-switch {
   height: 1.5rem;
@@ -4801,5 +4800,7 @@ hr.is-deep {
 
 .p-list__item--deep {
   padding: 0.5rem 0; }
+
+
 
 /* --- */

@@ -60,7 +60,7 @@
               {% for category in sorted_categories %}
                 <li class="p-sidebar-nav__item">
                   <strong>{{ category | replace: "-", " " | capitalize }}</strong>
-        
+
                   <ul class="p-sidebar-nav__list" id="docs-list-unsorted">
                     {% for node in site.pages %}
                       {% assign url_parts = node.url | split: '/' %}
@@ -83,6 +83,7 @@
             // Toggle mobile sidebar nav
             var toggle = document.querySelector('.p-sidebar__toggle');
             var sidebarContent = document.querySelector('.p-sidebar__content');
+            var activeLink;
 
             toggle.addEventListener('click', function(e) {
               toggle.classList.toggle('p-icon--menu');
@@ -94,7 +95,8 @@
             var navLinks = document.querySelectorAll('.p-sidebar-nav__item > .p-link--soft');
             navLinks.forEach(function(link) {
               if (link.getAttribute("href") === window.location.pathname) {
-                link.className += " is-active";
+                activeLink = link;
+                activeLink.className += " is-active";
               }
             });
           </script>
@@ -108,11 +110,69 @@
             <p class="p-heading--four">{{ page.description }}</p>
           </div>
         </div>
-        <div class="p-strip is-shallow">
+        <div class="p-strip is-shallow is-bordered">
           <div class="p-content__row">
             {{ content }}
           </div>
         </div>
+        <div class="p-pagination p-content__row">
+          <a class="p-pagination__link--previous" href="">
+            <span class="p-pagination__label">Previous</span>
+            <span class="p-pagination__title"></span>
+          </a>
+          <a class="p-pagination__link--next u-float--right" href="">
+            <span class="p-pagination__label">Next</span>
+            <span class="p-pagination__title"></span>
+          </a>
+        </div>
+        <script>
+          var pagination = document.querySelector('.p-pagination');
+
+          if (pagination) {
+            var current = activeLink.parentNode;
+            var next = current.nextElementSibling;
+            var prev = current.previousElementSibling;
+            var paginationNext = pagination.querySelector('.p-pagination__link--next');
+            var paginationPrev = pagination.querySelector('.p-pagination__link--previous');
+
+            // If there is no previous link in the category jump to the
+            // previous category if there is one and select the last item.
+            if (!prev) {
+              var previousBlock = current.parentNode.closest('.p-sidebar-nav__item').previousElementSibling;
+              if (previousBlock) {
+                var previousBlockItems = previousBlock.querySelectorAll('.p-sidebar-nav__item');
+                var prev = previousBlockItems[previousBlockItems.length - 1];
+              }
+            }
+
+            // If there is no next link in the category jump to the
+            // next category if there is one and select the first item.
+            if (!next) {
+              var nextBlock = current.parentNode.closest('.p-sidebar-nav__item').nextElementSibling;
+              if (nextBlock) {
+                var nextBlockItems = nextBlock.querySelectorAll('.p-sidebar-nav__item');
+                var next = nextBlockItems[0];
+              }
+            }
+
+            // Update content of the links and if not available hide the link
+            if (prev) {
+              paginationPrev.querySelector('.p-pagination__title').innerText = prev.innerText;
+              paginationPrev.href = prev.querySelector('a').href;
+            } else {
+              paginationPrev.classList.add('u-hide');
+              paginationNext.style.width = '100%';
+            }
+
+            if (next) {
+              paginationNext.querySelector('.p-pagination__title').innerText = next.innerText;
+              paginationNext.href = next.querySelector('a').href;
+            } else {
+              paginationNext.classList.add('u-hide');
+              paginationPrev.style.width = '100%';
+            }
+          }
+        </script>
         <footer class="p-footer" role="contentinfo">
           <div class="p-content__row u-no-margin--left">
             <div class="col-12">
