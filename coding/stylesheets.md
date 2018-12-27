@@ -70,12 +70,11 @@ New code should be written using the full class names, to enable findability and
 
 ```
 
-
 Targeting elements
 ------------------
 
-As a developer you should only target elements in the core part of your
-css styles. Such as the reset and typography. This results in all
+As a developer, you should only target elements in the core part of your
+CSS styles. Such as the reset and typography. This results in all
 elements that have component styling need a class attached.
 
 Utility class
@@ -107,8 +106,8 @@ can contain more than one word which are separated by a single hyphen:
 
 ### Elements
 
-When naming an element use a word or words that best describe the
-content of the element. Again these can contain more than one word
+When naming an element, use a word or words that best describe the
+content of the element. Again, these can contain more than one word
 separated by a single hyphen:
 
 ```
@@ -119,7 +118,7 @@ separated by a single hyphen:
 
 ### Modifier
 
-Modifiers should describe the reason to have overriding styling. Again
+Modifiers should describe the reason to have overriding styling. Again,
 these can contain more than one word separated by a single hyphen:
 
 #### Do not:
@@ -139,14 +138,14 @@ element name for each DOM element. For example:
 
 #### Do not:
 
-`<li class="nav__list__item"></div>`
+`<li class="nav__list__item"></li>`
 
 #### Do:
 
 `<li class="nav__list-item"></li>`
 
 If you find you are having trouble naming an element due to over
-nesting. Consider splitting that component into smaller components that
+nesting, consider splitting that component into smaller components that
 when combined become result in the desired organism.
 
 Example of a component with nested elements:
@@ -172,7 +171,7 @@ Example of a component with nested elements:
 State classes
 -------------
 
-is-, has-: Signify that the piece of UI in question is currently styled
+`is-`, `has-`: Signify that the piece of UI in question is currently styled
 a certain way because of a state or condition. It tells us that the DOM
 currently has a temporary, optional, or short-lived style applied to it
 due to a certain state being invoked.
@@ -209,7 +208,7 @@ developer working with JavaScript, leave these well alone.
 The idea is that -- in order to properly separate our concerns, we
 should never have styling and behaviour bound to the same classes.
 
-
 Code Formatting
 ===============
-To ensure consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier) for formatting sass.
+
+To ensure consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier) for formatting Sass.
