@@ -10,7 +10,7 @@ This document outlines the rules for writing HTML documents and fragments across
 We write HTML5 markup, following XHTML standards for readability.
 General rules for all HTML documents are:
 
- - HTML documents should use HTML5 doctype - `<!DOCTYPE html>`
+ - HTML documents should use HTML5 `doctype` - `<!DOCTYPE html>`
  - Indent using 2 spaces
  - Tags and attributes should be lowercase (`<p class="intro">` not `<P CLASS="intro">`)
  - Use double quotes for attribute values
@@ -18,5 +18,5 @@ General rules for all HTML documents are:
 
 ## Images
 
-  - Use alt attributes on img elements
-  - Use null alt text (`alt=""`) and no title attribute on img elements for images that Assistive Technology should ignore
+  - Use `alt` attributes on `img` elements
+  - Use null `alt` text (`alt=""`) and no `title` attribute on `img` elements for images that Assistive Technology should ignore
