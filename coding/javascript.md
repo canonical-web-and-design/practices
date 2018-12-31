@@ -54,17 +54,17 @@ When starting a new React application, we recommend [create-react-app](https://g
 All projects should generally use the following:
 
 * Style framework - [Vanilla](https://github.com/vanilla-framework/vanilla-framework)
-* component testing - [Enzyme](https://github.com/airbnb/enzyme)
+* Component testing - [Enzyme](https://github.com/airbnb/enzyme)
 
 If you require routing, or state management:
 
-* routing - [react-router](https://github.com/ReactTraining/react-router)
-* app state management - [Redux](https://redux.js.org)
+* Routing - [react-router](https://github.com/ReactTraining/react-router)
+* Application state management - [Redux](https://redux.js.org)
 
 #### Redux specific
 
-* selector composition and memoisation - [Reselect](https://github.com/reduxjs/reselect)
-* async/side-effects management (http, localstorage etc.) - [redux-saga](https://github.com/redux-saga/redux-saga)
+* Selector composition and memoisation - [Reselect](https://github.com/reduxjs/reselect)
+* Async/side-effects management (http, localstorage etc.) - [redux-saga](https://github.com/redux-saga/redux-saga)
 
 If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
 
