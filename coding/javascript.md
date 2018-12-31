@@ -101,7 +101,7 @@ Using the object spread operator is recommended, but requires a [Babel polyfill]
 
 #### Testing
 
-* Generally, it is best to test the component in its connected state, using [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store). In cases where you want to test the unconnected functionality of a connected component, it is okay to create a named export with a "Component" suffix. e.g. If your default export is: `export default connect(mapStateToProps, mapDispatchToProps)(UserList)` you can also export `export { UserList as UserListComponent }` for testing.
+* Generally, it is best to test the component in its connected state, using [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store). In cases where you want to test the unconnected functionality of a connected component, it is okay to create a named export with a "Component" suffix. e.g. If your default export is `export default connect(mapStateToProps, mapDispatchToProps)(UserList)` you can also export `export { UserList as UserListComponent }` for testing.
 
 ## References
 
