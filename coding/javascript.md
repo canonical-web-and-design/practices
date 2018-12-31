@@ -53,7 +53,7 @@ When starting a new React application, we recommend [create-react-app](https://g
 
 All projects should generally use the following:
 
-* style framework - [Vanilla](https://github.com/vanilla-framework/vanilla-framework)
+* Style framework - [Vanilla](https://github.com/vanilla-framework/vanilla-framework)
 * component testing - [Enzyme](https://github.com/airbnb/enzyme)
 
 If you require routing, or state management:
