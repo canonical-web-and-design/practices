@@ -37,18 +37,20 @@ We use [Yarn](https://yarnpkg.com/en) for dependency management.
 
 We use the [Jest](https://jestjs.io) unittest framework.
 
-#### General Testing Principals
-  * Avoid setting up state in `beforeEach`. It should be clear from reading a test in isolation what state it is in.
-  * Use test factories to reduce boilerplate for commonly instantiated objects.
-  * Don't test external code/libraries.
+#### General Testing Advice
+* Avoid setting up state (fixtures, mocks) in `beforeEach`. It should be clear from reading a test in isolation what state it is in. This pattern creates a number of issues:
+  * The developer must look in more than one place to understand the test.
+  * As the test suite grows, developers may add fixtures to `beforeEach` that are only used by a subset of tests, and then the onnus is on the developer to understand whether that fixture is relevant for the test they are reading.
+  * A developer may want a fixture in a *similar* state to one already defined in `beforeEach` and chooses to mutate it in their test, reducing clarity. 
+* Don't test external code/libraries.
 
 #### Testing React
-  * Tests should be collocated with their component in the same directory (MyComponent.js should have a corresponding MyComponent.test.js)
-  * If a component seems difficult to test, it might indicate that it needs to be further decomposed into smaller components.
-  * Unittests should test component behaviour, rather than explicit rendering. Typically you want to test state changes,
+* Tests should be collocated with their component in the same directory (MyComponent.js should have a corresponding MyComponent.test.js)
+* If a component seems difficult to test, it might indicate that it needs to be further decomposed into smaller components.
+* Unittests should test component behaviour, rather than explicit rendering. Typically you want to test state changes,
     that handlers are called with appropriate arguments, and any internal logic.
-  * [Jest snapshots](https://jestjs.io/docs/en/snapshot-testing) are ideal for catching regressions in component output/rendering. If you are reviewing a branch, do take care to inspect the snapshot diffs. Snapshot tests should compliment unit tests rather than replace them, as unit tests better describe the intended behaviour and output of a component.
-  * Favour testing components in isolation where possible (use enzyme's `shallow` over `mount` where possible).
+* [Jest snapshots](https://jestjs.io/docs/en/snapshot-testing) are ideal for catching regressions in component output/rendering. If you are reviewing a branch, do take care to inspect the snapshot diffs. Snapshot tests should compliment unit tests rather than replace them, as unit tests better describe the intended behaviour and output of a component.
+* Favour testing components in isolation where possible (use enzyme's `shallow` over `mount` where possible).
 
 ##### Redux
   * Connected components (redux containers) should be tested using [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store).
