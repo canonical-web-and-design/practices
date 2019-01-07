@@ -114,8 +114,6 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 * Ensure you use [immutable patterns](https://redux.js.org/recipes/structuringreducers/immutableupdatepatterns) for updating the redux store. Using
 the object spread operator is recommended, but requires a [babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
 * Reducers must be [pure functions](https://redux.js.org/basics/reducers#handling-actions) i.e. they should not mutate their arguments, call impure functions or create side-effects such as API calls.
-* Ensure you use [immutable patterns](https://redux.js.org/recipes/structuringreducers/immutableupdatepatterns) for updating the Redux store.
-Using the object spread operator is recommended, but requires a [Babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
 * [reduceReducers](https://github.com/redux-utilities/reduce-reducers) is a useful tool for combining reducers and removing boilerplate where you have many reducers with identical behaviour.
 
 #### Selectors
