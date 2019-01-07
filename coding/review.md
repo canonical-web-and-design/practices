@@ -1,5 +1,3 @@
-# Code Review
-
 ## Etiquette
 
 ### Approval with suggestions for trivial changes
