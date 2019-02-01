@@ -48,7 +48,7 @@ Check the number of points in the new iteration are achievable, if not, remove o
 
 Once you have completed your planning and know how many points you can still take on in the iteration, scroll through the Triaged pipeline and choose a number of high, medium and low issues.
 
-I would suggest a ratio of 3 high, 2 medium and 1 small.
+A suggested ratio might be 3 high, 2 medium and 1 small.
 
 This allows for a curn of low priority issues to be resolved reguarly.
 
