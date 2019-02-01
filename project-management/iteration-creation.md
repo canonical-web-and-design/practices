@@ -44,7 +44,7 @@ Ensure all rows are correctly broken into issues with estimations.
 
 Check the number of points in the new iteration are achievable, if not, remove or add rows. This will inform the squad how much they take on as small tasks.
 
-### Assinging issues to small tasks
+### Assigning issues to small tasks
 
 Once you have completed you planning and know how many points you can still take on in the iteration. Scroll though the Triaged pipeline and choose a number of high, medium and low issues.
 
