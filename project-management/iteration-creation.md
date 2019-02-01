@@ -6,7 +6,11 @@ description: These are the steps to follow when creating a new iteration
 ## Before the iteration starts
 ### Create a milestone
 
-Go to your squads repo and create a milestone titled: Iteration {number}-{week} {date from} - {date to} for example: Iteration 18-47 20th November - 3rd December.
+Go to your squad's repo and create a milestone titled: 
+
+Iteration `{number}`-`{week}` `{date from}` - `{date to}` 
+
+For example: "Iteration 18-47 20th November - 3rd December."
 
 ### Create a small task epic
 
