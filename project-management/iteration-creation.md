@@ -50,7 +50,7 @@ Once you have completed your planning and know how many points you can still tak
 
 A suggested ratio might be 3 high, 2 medium and 1 small.
 
-This allows for a curn of low priority issues to be resolved reguarly.
+This allows for a churn of low priority issues to be resolved regularly.
 
 ### Assign the milestone to the epic and cards
 
