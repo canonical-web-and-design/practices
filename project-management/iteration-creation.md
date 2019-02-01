@@ -20,7 +20,7 @@ Create a new epic on the squad repo and attach it to the new milestone.
 
 Populate the "Proposed iteration" area in the backlog spreadsheet with high-level rows describing work for the upcoming iteration
 
-Move all incomplete epics down from the "Previous iteration" to the "Current iteration" section. Apart from the small tasks epic. Instead reassign all small tasks to the new small tasks in this iteration.
+Move all incomplete epics down from the "Previous iteration" to the "Current iteration" section. Apart from the small tasks epic. Instead, reassign all small tasks to the new small tasks in this iteration.
 
 ### Create epics for every proposed backlog item
 
