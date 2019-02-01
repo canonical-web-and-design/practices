@@ -50,7 +50,7 @@ This allows for a curn of low priority issues to be resolved reguarly.
 
 ### Assign the milestone to the epic and cards
 
-Once you have organised the backlog and you know which epics you are taking on. Highlight each epic and move them to the "Iteration epics" pipeline and assign the newly created milestone. You can then show all cards for this epic via the board view. Select each issue and move them to the "Current iteration" pipeline and also assign them to the milestone.
+Once you have organised the backlog and you know which epics you are taking on, highlight each epic and move them to the "Iteration epics" pipeline and assign the newly created milestone. You can then show all cards for this epic via the board view. Select each issue and move them to the "Current iteration" pipeline and also assign them to the milestone.
 
 You are now ready to take on your next iteration.
 
