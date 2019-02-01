@@ -26,7 +26,7 @@ Move all incomplete epics down from the "Previous iteration" to the "Current ite
 
 Title the epic the same as the title in the backlog. Assign them to the appropriate milestone.
 
-Create and estimate broken down tasks for each epic in the next milestone. Assign them to the appropriate next milestone and set their pipeline to "Triaged".
+Create and then estimate tasks, once they are broken down, for each epic in the next milestone. Assign them to the appropriate next milestone and set their pipeline status to "Triaged".
 
 ## At the start of the iteration
 
