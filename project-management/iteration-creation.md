@@ -46,7 +46,7 @@ Check the number of points in the new iteration are achievable, if not, remove o
 
 ### Assigning issues to small tasks
 
-Once you have completed you planning and know how many points you can still take on in the iteration. Scroll though the Triaged pipeline and choose a number of high, medium and low issues.
+Once you have completed your planning and know how many points you can still take on in the iteration, scroll through the Triaged pipeline and choose a number of high, medium and low issues.
 
 I would suggest a ratio of 3 high, 2 medium and 1 small.
 
