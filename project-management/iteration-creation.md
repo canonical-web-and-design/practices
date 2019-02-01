@@ -34,7 +34,7 @@ Rename the sections of the backlog from "Current iteration:" to "Previous iterat
 
 This should result in the "Previous iteration" being 100% complete. You may now hide the iteration rows.
 
-Pull up the epics that are proitised from this iteration.
+Pull up the epics that are prioritised from this iteration.
 
 Be sure to check the "sum" cells are set currently.
 
