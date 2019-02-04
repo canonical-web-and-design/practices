@@ -42,7 +42,7 @@ Round trips to the server are expensive. We should be aware that our users may l
 
 ### Leverage browser caching
 
-As mentioned above, round trips to the server are expensive. These requests can be avoided entirely for static assets that do not change frequently by specifying an explicit caching policy. However, do not forget to implement a strategy to invalidate the cache if and when those assets do change.
+As mentioned above, round trips to the server are expensive. Subsequent requests for static assets that do not change frequently can be avoided by specifying an explicit caching policy. However, do not forget to implement a strategy to invalidate the cache if and when those assets do change.
 
 ## Testing tools
 
