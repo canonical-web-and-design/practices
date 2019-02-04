@@ -18,4 +18,3 @@ Keep the "topic" succinct, and use only lower-case letters. For example:
 ```
 canonical-openstack-delivery-2017-08-06.pdf
 ```
-

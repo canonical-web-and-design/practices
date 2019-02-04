@@ -12,6 +12,7 @@ Design specs live in the code section of the [Vanilla design repo](https://githu
 ## Structure
 
 Each pattern should have its own folder, and include two files:
+
 - Detailed written spec (.md format)
 - Visual spec (.png format)
 

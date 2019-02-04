@@ -53,18 +53,18 @@ When starting a new React application, we recommend [create-react-app](https://g
 
 All projects should generally use the following:
 
-* Style framework - [Vanilla](https://github.com/vanilla-framework/vanilla-framework)
-* Component testing - [Enzyme](https://github.com/airbnb/enzyme)
+- Style framework - [Vanilla](https://github.com/vanilla-framework/vanilla-framework)
+- Component testing - [Enzyme](https://github.com/airbnb/enzyme)
 
 If you require routing, or state management:
 
-* Routing - [react-router](https://github.com/ReactTraining/react-router)
-* Application state management - [Redux](https://redux.js.org)
+- Routing - [react-router](https://github.com/ReactTraining/react-router)
+- Application state management - [Redux](https://redux.js.org)
 
 #### Redux specific
 
-* Selector composition and memoisation - [Reselect](https://github.com/reduxjs/reselect)
-* Async/side-effects management (http, localstorage etc.) - [redux-saga](https://github.com/redux-saga/redux-saga)
+- Selector composition and memoisation - [Reselect](https://github.com/reduxjs/reselect)
+- Async/side-effects management (http, localstorage etc.) - [redux-saga](https://github.com/redux-saga/redux-saga)
 
 If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
 
@@ -78,30 +78,30 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 
 ### File naming conventions
 
-* Component files should use CamelCase and match the name of the default export (e.g. `MyComponent.js`).
-* Files containing JSX should still have a `.js` extension.
-(See [justification](https://github.com/facebook/create-react-app/issues/87#issuecomment-234627904) from Dan Abramov).
+- Component files should use CamelCase and match the name of the default export (e.g. `MyComponent.js`).
+- Files containing JSX should still have a `.js` extension.
+  (See [justification](https://github.com/facebook/create-react-app/issues/87#issuecomment-234627904) from Dan Abramov).
 
 ### Redux
 
 #### General Principals
 
-* Use Redux for state that is shared across multiple routes, or in deep component hierarchies where you find yourself passing `props` through multiple children. Favour local state otherwise. See [Do I have to put all my state in redux?](https://redux.js.org/faq/organizingstate#do-i-have-to-put-all-my-state-into-redux-should-i-ever-use-reacts-setstate)
-* It is fine, and in fact more efficient, to connect components lower in the hierarchy (i.e. don't feel you can only connect a top level component). See [Should I only connect my top component, or can I connect multiple components in my tree?](https://redux.js.org/faq/reactredux#should-i-only-connect-my-top-component-or-can-i-connect-multiple-components-in-my-tree)
+- Use Redux for state that is shared across multiple routes, or in deep component hierarchies where you find yourself passing `props` through multiple children. Favour local state otherwise. See [Do I have to put all my state in redux?](https://redux.js.org/faq/organizingstate#do-i-have-to-put-all-my-state-into-redux-should-i-ever-use-reacts-setstate)
+- It is fine, and in fact more efficient, to connect components lower in the hierarchy (i.e. don't feel you can only connect a top level component). See [Should I only connect my top component, or can I connect multiple components in my tree?](https://redux.js.org/faq/reactredux#should-i-only-connect-my-top-component-or-can-i-connect-multiple-components-in-my-tree)
 
 #### Reducers
 
-* Ensure you use [immutable patterns](https://redux.js.org/recipes/structuringreducers/immutableupdatepatterns) for updating the Redux store.
-Using the object spread operator is recommended, but requires a [Babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
-* [reduceReducers](https://github.com/redux-utilities/reduce-reducers) is a useful tool for combining reducers and removing boilerplate where you have many reducers with identical behaviour.
+- Ensure you use [immutable patterns](https://redux.js.org/recipes/structuringreducers/immutableupdatepatterns) for updating the Redux store.
+  Using the object spread operator is recommended, but requires a [Babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
+- [reduceReducers](https://github.com/redux-utilities/reduce-reducers) is a useful tool for combining reducers and removing boilerplate where you have many reducers with identical behaviour.
 
 #### Selectors
 
-* Use selectors to access state in your components, ideally with [Reselect](https://github.com/reduxjs/reselect) which provides memoisation. Selectors can be elegantly combined to create different views of state.
+- Use selectors to access state in your components, ideally with [Reselect](https://github.com/reduxjs/reselect) which provides memoisation. Selectors can be elegantly combined to create different views of state.
 
 #### Testing
 
-* Generally, it is best to test the component in its connected state, using [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store). In cases where you want to test the unconnected functionality of a connected component, it is okay to create a named export with a "Component" suffix. e.g. If your default export is `export default connect(mapStateToProps, mapDispatchToProps)(UserList)` you can also export `export { UserList as UserListComponent }` for testing.
+- Generally, it is best to test the component in its connected state, using [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store). In cases where you want to test the unconnected functionality of a connected component, it is okay to create a named export with a "Component" suffix. e.g. If your default export is `export default connect(mapStateToProps, mapDispatchToProps)(UserList)` you can also export `export { UserList as UserListComponent }` for testing.
 
 ## References
 

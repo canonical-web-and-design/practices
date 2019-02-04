@@ -6,11 +6,11 @@ description: Code style standards for CSS and Sass
 For a quick recap on BEM, it works by breaking down all classes in a
 codebase into one of three groups:
 
--   Block: The sole root of the component.
+- Block: The sole root of the component.
 
--   Element: A component part of the Block.
+- Element: A component part of the Block.
 
--   Modifier: A variant or extension of the Block.
+- Modifier: A variant or extension of the Block.
 
 The point of BEM is to give a lot more transparency and clarity to your
 markup. BEM informs developers how classes relate to each other, which
@@ -32,8 +32,7 @@ confidence:
 > knowing the potential side effects of making a change? Do we have
 > a way of knowing what we might be able to remove?
 
-Naming convention
------------------
+## Naming convention
 
 #### Format
 
@@ -70,15 +69,13 @@ New code should be written using the full class names, to enable findability and
 
 ```
 
-Targeting elements
-------------------
+## Targeting elements
 
 As a developer, you should only target elements in the core part of your
 CSS styles. Such as the reset and typography. This results in all
 elements that have component styling need a class attached.
 
-Utility class
--------------
+## Utility class
 
 #### Format
 
@@ -92,8 +89,7 @@ Utility classes are styling patterns that are used across the entire
 site and can be applied to modify components. We should strive to keep
 this to a minimum as they lead to a lot of single style overrides.
 
-Semantic naming
----------------
+## Semantic naming
 
 ### Components
 
@@ -129,8 +125,7 @@ these can contain more than one word separated by a single hyphen:
 
 `<div class="row--billboard"></div>`
 
-Nesting elements
-----------------
+## Nesting elements
 
 You may find you start to nest elements inside a component. This should
 be done with semantically named elements. You should only have one
@@ -168,8 +163,7 @@ Example of a component with nested elements:
 </nav>
 ```
 
-State classes
--------------
+## State classes
 
 `is-`, `has-`: Signify that the piece of UI in question is currently styled
 a certain way because of a state or condition. It tells us that the DOM
@@ -190,8 +184,7 @@ This allows interactive scripts to simple toggle these classes with
 confidence only state styles will be effect. Leaving component styles
 unaffected.
 
-JavaScript namespacing
-----------------------
+## JavaScript namespacing
 
 A piece of the DOM has some behaviour acting upon it, and that
 JavaScript binds onto it to provide that behaviour. If you’re not a
@@ -208,7 +201,6 @@ developer working with JavaScript, leave these well alone.
 The idea is that -- in order to properly separate our concerns, we
 should never have styling and behaviour bound to the same classes.
 
-Code Formatting
-===============
+# Code Formatting
 
 To ensure consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier) for formatting Sass.

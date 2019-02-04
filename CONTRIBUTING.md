@@ -37,7 +37,7 @@ The parts of the newly created document should then be submitted as pull request
 
 As this repository represents the whole team, team members should try to collaborate on any pull request they are aware of.
 
-To encourage participation and activity on the project, comments should remain as polite and accommodating as possible. The [GitHub reviews](https://help.github.com/articles/about-pull-request-reviews/) features ("approve" and "request changes") should *not* be used, as all discussion is merely a discussion of opinions.
+To encourage participation and activity on the project, comments should remain as polite and accommodating as possible. The [GitHub reviews](https://help.github.com/articles/about-pull-request-reviews/) features ("approve" and "request changes") should _not_ be used, as all discussion is merely a discussion of opinions.
 
 ### Approval criteria
 
@@ -49,4 +49,3 @@ Before a pull request is approved and merged:
   - For expediency, this rule does not apply to pull requests to create new [empty documents](#starting-a-new-document)
 
 Once it is merged, it should be brought up in the next relevant team meeting to ensure the whole team is aware of the change.
-

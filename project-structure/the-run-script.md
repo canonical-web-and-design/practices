@@ -18,13 +18,13 @@ First [install Docker](https://docs.docker.com/engine/installation/)
 
 Then to learn about this script's options, type:
 
-``` bash
+```bash
 ./run --help
 ```
 
 The basic options are:
 
-``` bash
+```bash
 ./run serve  # Start the Django server, optionally watching for changes
 ./run build  # Build the CSS
 ./run watch  # Watch and build the CSS whenever Sass changes
@@ -36,7 +36,7 @@ The basic options are:
 
 The `serve` function optionally takes a `--watch` argument:
 
-``` bash
+```bash
 ./run serve --watch
 ```
 
@@ -45,4 +45,3 @@ This will effectively run the `./run watch` command in the background while also
 **NB:** You won't see the output from the watcher by default. This makes it difficult to know if it's working properly.
 
 To check if the watcher daemon is running, use `docker ps`. Then you can use `docker attach` to follow the output from the background watcher.
-

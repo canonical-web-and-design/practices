@@ -12,7 +12,7 @@ This is so that team members can easily run multiple projects at the same time w
 ## Defaults
 
 | Port | Project                                                                                           |
-| ---- | -------                                                                                           |
+| ---- | ------------------------------------------------------------------------------------------------- |
 | 8001 | [www.ubuntu.com](https://github.com/canonical-websites/www.ubuntu.com)                            |
 | 8002 | [www.canonical.com](https://github.com/canonical-websites/www.canonical.com)                      |
 | 8003 | [partners.ubuntu.com](https://github.com/canonical-websites/partners.ubuntu.com)                  |
@@ -69,7 +69,6 @@ There are a few benefits to the local development application having a predictab
 
 However, it should be possible to choose to run any project on a different port through the standard `./run` tooling:
 
-``` bash
+```bash
 ./run serve --port 8999
-``` 
-
+```
