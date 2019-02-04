@@ -35,7 +35,7 @@ We use [Yarn](https://yarnpkg.com/en) for dependency management.
 
 ### Testing
 
-We use the [Jest](https://jestjs.io) unittest framework.
+We use the [Jest](https://jestjs.io) unit test framework.
 
 ### Code style & formatting
 
