@@ -36,10 +36,6 @@ How a web page renders has a huge effect on the perception of how responsive tha
 - Limit DOM nodes to a minimum
 - Consider inlining critical CSS
 
-### Reduce HTTP requests
-
-Round trips to the server are expensive. We should be aware that our users may lose connection before they have downloaded all the assets required to complete page load. Reduce HTTP requests as much as possible by concatenating CSS & JS and embedding images and icons using SVG or Base64 formats.
-
 ### Leverage browser caching
 
 As mentioned above, round trips to the server are expensive. Subsequent requests for static assets that do not change frequently can be avoided by specifying an explicit caching policy. However, do not forget to implement a strategy to invalidate the cache if and when those assets do change.
