@@ -14,7 +14,7 @@ For example: "Iteration 18-47 20th November - 3rd December."
 
 ### Create a small task epic
 
-Create a new epic on the squad repo and attach it to the new milestone.
+Create a new epic on the squad repo and attach it to the new milestone. Usually in the format "Small Tasks: Iteration {YY}-{week}"
 
 ### Set up the backlog
 
