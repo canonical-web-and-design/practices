@@ -33,3 +33,10 @@ jekyll serve
 ## Contributing
 
 For guidelines on contributing to these documents, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Troubleshooting
+
+### Jekyll not found
+If you encounter a problem when trying to run an installed **gem**, that states that it can not be found, make sure that the directory in which **gems** are installed is included in your PATH.
+You can verify this by typing `echo $PATH` in a terminal and checking for the folder in the output.
+If you are not sure what folder your **gems** are installed into, run `gem env | grep EXECUTABLE\ DIRECTORY` and add the path that is printed into your PATH environment variable.
