@@ -13,7 +13,7 @@ To run this site locally, you'll need to first [install Ruby](https://www.ruby-l
 Once you have installed Ruby, you can then install [Bundler](https://bundler.io) by running;
 
 ```
-gem install bundler
+gem install bundler -v 1.17.3
 ```
 
 The next step is to install the Ruby gems required to run the site with Bundler;
