@@ -8,7 +8,7 @@ description: These are the steps to follow when creating a new iteration
 
 Go to your squad's repo and create a milestone titled: 
 
-Iteration `{number}`-`{week}` `{date from}` - `{date to}` 
+Iteration `{YY}`-`{week}` `{date from}` - `{date to}` 
 
 For example: "Iteration 18-47 20th November - 3rd December."
 
