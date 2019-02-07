@@ -2,6 +2,5 @@ baseurl: /practices
 plugins:
   - jekyll-redirect-from
 defaults:
-  -
-    values:
+  - values:
       layout: "default"

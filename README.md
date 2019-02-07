@@ -34,6 +34,16 @@ jekyll serve
 
 For guidelines on contributing to these documents, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Code formatting
+
+This code base uses [Prettier](https://prettier.io) to ensure consistent formatting.
+
+To run Prettier over the code base (assuming you have [npm](https://www.npmjs.com) installed), run:
+
+```
+npx prettier --write **/*
+```
+
 ## Troubleshooting
 
 ### Jekyll not found

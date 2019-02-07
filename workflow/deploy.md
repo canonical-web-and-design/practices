@@ -27,7 +27,7 @@ However, we should be careful about significant changes to the way in which appl
 
 This section will present how to deploy a new service to our instance of Kubernetes.
 
-*To deploy a new website you need to be sure that you are **not** using `bower` and the the run script uses the version **1.** of Yarn.*
+_To deploy a new website you need to be sure that you are **not** using `bower` and the the run script uses the version **1.** of Yarn._
 
 ### Create a dockerfile of your service
 
@@ -50,8 +50,10 @@ $ python create-project <DNS_OF_THE_WEBSITE>
 In order to deploy to Kubernetes you will need to create 2 Jenkins jobs on the webteam [instance](https://jenkins.canonical.com/webteam/): one for staging and one for production.
 
 Update the **apply** job:
-* Go to the [configure page](https://jenkins.canonical.com/webteam/job/apply-production-deployment-configs/configure)
-* Add these lines:
+
+- Go to the [configure page](https://jenkins.canonical.com/webteam/job/apply-production-deployment-configs/configure)
+- Add these lines:
+
 ```bash
 export TAG_TO_DEPLOY=$(kubectl get deployment <DNS_OF_THE_WEBSITE_WITH-DASHES> --namespace production --output jsonpath="{.spec.template.spec.containers[*].image}" | grep -P -o '(?<=:)[^:]*$')
 envsubst < services/<DNS_OF_THE_WEBSITE>.yaml | kubectl apply --namespace production --filename -
@@ -63,23 +65,23 @@ kubectl apply --namespace production --filename ingresses/production/<DNS_OF_THE
 
 Create the **staging** job:
 
- * Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
-   * Item name: *deploy-to-<STAGING_DNS>*
-   * Copy from (at the bottom the page): *deploy-to-design.staging.ubuntu.com*
- * Change those parameters on the configuration page:
-   * *General* -> *Github project*: insert the Github repository
-   * *Source code management* -> *Repositories* -> *Repository URL*: insert the GitHub repository
-   * *Build*: Update the script with the rights values
- * Save
+- Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
+  - Item name: _deploy-to-<STAGING_DNS>_
+  - Copy from (at the bottom the page): _deploy-to-design.staging.ubuntu.com_
+- Change those parameters on the configuration page:
+  - _General_ -> _Github project_: insert the Github repository
+  - _Source code management_ -> _Repositories_ -> _Repository URL_: insert the GitHub repository
+  - _Build_: Update the script with the rights values
+- Save
 
 Create the **production** job:
 
- * Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
-   * Item name: *deploy-to-<PRODUCTION_DNS>*
-   * Copy from (at the bottom of the page): *deploy-to-design.ubuntu.com*
- * Change those parameters on the configuration page:
-   * *Build*: Update the script with the rights values
- * Save
+- Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
+  - Item name: _deploy-to-<PRODUCTION_DNS>_
+  - Copy from (at the bottom of the page): _deploy-to-design.ubuntu.com_
+- Change those parameters on the configuration page:
+  - _Build_: Update the script with the rights values
+- Save
 
 #### Jobs examples
 
@@ -160,7 +162,7 @@ echo ""
 
 ### First deployment
 
-For the first deployment go on the apply job and update the line you added previously. You need to change the variable `TAG_TO_DEPLOY` with the hash of the last commit in the project. 
+For the first deployment go on the apply job and update the line you added previously. You need to change the variable `TAG_TO_DEPLOY` with the hash of the last commit in the project.
 
 Once this tag is updated you can run the job apply, then staging and if nothing fails production.
 

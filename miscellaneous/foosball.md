@@ -13,17 +13,16 @@ Outlined below are the team's official rules for foosball:
 
 **Flip for it**: When playing a third game, a coin-toss will decide who gets to choose side
 
-- *"Tails for Wales"*: For the toss, the side with the most convincing association with Wales is tails
+- _"Tails for Wales"_: For the toss, the side with the most convincing association with Wales is tails
 
 **Scorers switch places**: After each goal, the two players on the side who scored the goal must swap places
 
-- *No other switching*: This is the only situation under which the players are allowed to switch places
+- _No other switching_: This is the only situation under which the players are allowed to switch places
 
 **Spinning**: Feel free to spin the players (good luck with that)
 
 **Being 10-balled**: The players on a side who is beaten 10-0 in a game must swap shirts/tops
 
-- *This rule is purely theoretical, and should not be used on real human beings*
+- _This rule is purely theoretical, and should not be used on real human beings_
 
 **"Lifting"**: When the ball can not be reached by any players, the table must be lifted by the team whose half the ball is in. Play is stopped until the table is back on the ground.
-
