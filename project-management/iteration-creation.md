@@ -4,11 +4,12 @@ description: These are the steps to follow when creating a new iteration
 ---
 
 ## Before the iteration starts
+
 ### Create a milestone
 
-Go to your squad's repo and create a milestone titled: 
+Go to your squad's repo and create a milestone titled:
 
-Iteration `{YY}`-`{week}` `{date from}` - `{date to}` 
+Iteration `{YY}`-`{week}` `{date from}` - `{date to}`
 
 For example: "Iteration 18-47 20th November - 3rd December."
 
@@ -57,4 +58,3 @@ This allows for a churn of low priority issues to be resolved regularly.
 Once you have organised the backlog and you know which epics you are taking on, highlight each epic and move them to the "Iteration epics" pipeline and assign the newly created milestone. You can then show all cards for this epic via the board view. Select each issue and move them to the "Current iteration" pipeline and also assign them to the milestone.
 
 You are now ready to take on your next iteration.
-
