@@ -2,3 +2,4 @@ _site/
 ./vendor/
 ./.bundle/
 /node_modules
+/yarn-error.log
