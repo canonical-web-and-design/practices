@@ -11,7 +11,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies
+          name: Install gem dependencies
           command: bundle install
       - run:
           name: Build the site resources
@@ -28,11 +28,11 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies
+          name: Install yarn dependencies
           command: yarn install
       - run:
           name: Run Prettier over all files
-          command: prettier-check **/*
+          command: yarn prettier-check
 workflows:
   version: 2
   build:
