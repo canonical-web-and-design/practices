@@ -35,4 +35,4 @@ workflows:
   build:
     jobs:
       - test-build
-      - run-prettier
+      - check-prettier
