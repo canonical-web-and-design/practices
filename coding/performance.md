@@ -44,4 +44,3 @@ As mentioned above, round trips to the server are expensive. Subsequent requests
 
 - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 - [Webpage Test](https://www.webpagetest.org/)
-
