@@ -38,7 +38,7 @@ We use [Yarn](https://yarnpkg.com/en) for dependency management.
 We use the [Jest](https://jestjs.io) unittest framework.
 
 #### General Testing Advice
-* Avoid using `beforeEach`. It should be clear from reading a test in isolation what state (e.g. fixtures, mocks) it is in. Using `beforeEach` creates a number of issues:
+* Take care when using `beforeEach`. It should be clear from reading a test in isolation what state (e.g. fixtures, mocks) it is in. Use your best judgement, but be aware that using `beforeEach` can create a number of issues:
   * The developer must look in more than one place to understand the test.
   * As the test suite grows, developers may add fixtures to `beforeEach` that are only used by a subset of tests, and then the onnus is on the developer to understand whether that fixture is relevant for the test they are reading.
   * A developer may want a fixture in a *similar* state to one already defined in `beforeEach` and chooses to mutate it in their test, reducing clarity. 
