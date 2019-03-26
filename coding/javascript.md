@@ -30,10 +30,9 @@ e.g. `<a data-js="index-link" href="/index">Index</a>`.
 ## Tooling
 
 ### Build tools
-[Webpack](https://webpack.js.org/) is the preferred build tool for applications, and [Rollup](https://rollupjs.org/guide/en) has generally been preferred for building
-cross environment libraries (both the browser and ESM/CJS environments) if the library in question uses ES6 modules. Rollup and Webpack for the most part have
-feature parity now however (Webpack has support for scope hoisting, and Rollup supports code splitting), so this is mostly a matter of taste and
-convenience, given Rollup is easier to configure for library builds.
+[Webpack](https://webpack.js.org/) is the preferred build tool for applications, and [Rollup](https://rollupjs.org/guide/en) is preferred for libraries.
+
+Rollup and Webpack for the most part have feature parity (Webpack has support for scope hoisting, and Rollup supports code splitting), so this is mostly a matter of taste and convenience, given Rollup is easier to configure for library builds.
 
 ### Dependency management
 
