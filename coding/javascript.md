@@ -30,6 +30,7 @@ e.g. `<a data-js="index-link" href="/index">Index</a>`.
 ## Tooling
 
 ### Build tools
+
 [Webpack](https://webpack.js.org/) is the preferred build tool for applications, and [Rollup](https://rollupjs.org/guide/en) is preferred for libraries.
 
 Rollup and Webpack for the most part have feature parity, so this is mostly a matter of taste and convenience, given Rollup is easier to configure for library builds.
