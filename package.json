@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "prettier": "1.16.4"
+  },
+  "scripts": {
+    "prettier-check": "prettier --check **/*.*"
+  }
+}

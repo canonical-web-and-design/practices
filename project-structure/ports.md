@@ -12,7 +12,7 @@ This is so that team members can easily run multiple projects at the same time w
 ## Defaults
 
 | Port | Project                                                                                           |
-| ---- | -------                                                                                           |
+| ---- | ------------------------------------------------------------------------------------------------- |
 | 8001 | [www.ubuntu.com](https://github.com/canonical-websites/www.ubuntu.com)                            |
 | 8002 | [www.canonical.com](https://github.com/canonical-websites/www.canonical.com)                      |
 | 8003 | [partners.ubuntu.com](https://github.com/canonical-websites/partners.ubuntu.com)                  |
@@ -44,6 +44,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8029 | [jaas.ai](https://github.com/canonical-websites/jaas.ai)                                          |
 | 8030 | [docs.snapcraft.io](https://github.com/canonical-websites/docs.snapcraft.io)                      |
 | 8031 | [landscape.canonical.com](https://github.com/canonical-websites/landscape.canonical.com)          |
+| 8032 | [juju-gui](https://github.com/juju/juju-gui)                                                      |
 | 8099 | [demoservice](https://github.com/canonical-webteam/demoservice)                                   |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework)                       |
 | 8102 | [vanilla-framework-react](https://github.com/vanilla-framework/vanilla-framework-react)           |
@@ -69,7 +70,6 @@ There are a few benefits to the local development application having a predictab
 
 However, it should be possible to choose to run any project on a different port through the standard `./run` tooling:
 
-``` bash
+```bash
 ./run serve --port 8999
-``` 
-
+```

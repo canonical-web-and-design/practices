@@ -24,7 +24,7 @@ During a stand-up, each team should discuss:
 
 - Questions about the progress/ state of the work
 - Questions about the state and quality of task cards and epics
-- Questions about dependancies between various task cards
+- Questions about dependencies between various task cards
 
 ### Before stand-up
 

@@ -13,6 +13,6 @@ We encourage [consistency](https://uxdesign.cc/design-principle-consistency-6b0c
 
 Our web applications are designed as small, [focused](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well), self-contained projects with only loose coupling to our other applications. Code should be shared between projects by writing open-source packages for inclusion in the relevant projects, and applications should share data through public APIs.
 
-We keep our code in public GitHub repositories if possible. Each project should be simple to understand and get running without needing deep technical context or wider context about our other projects.  As far as possible, no special credentials should be necessary to get the code running.
+We keep our code in public GitHub repositories if possible. Each project should be simple to understand and get running without needing deep technical context or wider context about our other projects. As far as possible, no special credentials should be necessary to get the code running.
 
 We always intend to choose straightforward technology stacks that are no more complex than they need to be for the application in question, just as the application itself should be as simple as possible.
