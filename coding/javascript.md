@@ -52,7 +52,7 @@ We use the [Jest](https://jestjs.io) unit test framework.
 - Tests should be collocated with their component in the same directory (MyComponent.js should have a corresponding MyComponent.test.js)
 - If a component seems difficult to test, it might indicate that it needs to be further decomposed into smaller components.
 - Unittests should test component behaviour, rather than explicit rendering. Typically you want to test state changes,
-    that handlers are called with appropriate arguments, and any internal logic.
+  that handlers are called with appropriate arguments, and any internal logic.
 - [Jest snapshots](https://jestjs.io/docs/en/snapshot-testing) are ideal for catching regressions in component output/rendering. If you are reviewing a branch, do take care to inspect the snapshot diffs. Snapshot tests should compliment unit tests rather than replace them, as unit tests better describe the intended behaviour and output of a component.
 - Favour testing components in isolation where possible (use enzyme's `shallow` over `mount` where possible).
 
@@ -119,7 +119,7 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 #### Reducers
 
 - Ensure you use [immutable patterns](https://redux.js.org/recipes/structuringreducers/immutableupdatepatterns) for updating the redux store. Using
-the object spread operator is recommended, but requires a [babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
+  the object spread operator is recommended, but requires a [babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
 - Reducers must be [pure functions](https://redux.js.org/basics/reducers#handling-actions) i.e. they should not mutate their arguments, call impure functions or create side-effects such as API calls.
 - [reduceReducers](https://github.com/redux-utilities/reduce-reducers) is a useful tool for combining reducers and removing boilerplate where you have many reducers with identical behaviour.
 
