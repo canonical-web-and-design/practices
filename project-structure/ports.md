@@ -45,6 +45,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8030 | [docs.snapcraft.io](https://github.com/canonical-websites/docs.snapcraft.io)                      |
 | 8031 | [landscape.canonical.com](https://github.com/canonical-websites/landscape.canonical.com)          |
 | 8032 | [juju-gui](https://github.com/juju/juju-gui)                                                      |
+| 8033 | [docs.jujucharms.com](https://github.com/canonical-websites/docs.jujucharms.com)                  |
 | 8099 | [demoservice](https://github.com/canonical-webteam/demoservice)                                   |
 | 8101 | [vanilla-framework](https://github.com/vanilla-framework/vanilla-framework)                       |
 | 8102 | [vanilla-framework-react](https://github.com/vanilla-framework/vanilla-framework-react)           |
