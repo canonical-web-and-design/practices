@@ -70,6 +70,14 @@ To ensure code formatting consistency across our codebase, we use [Prettier](htt
 
 JavaScript should also be written using [AirBnB](https://github.com/airbnb/javascript) style. New projects can adhere to this by selecting 'AirBnB' during `eslint init`, and existing projects can find the relevant ESLint config in [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 
+### Commenting code
+
+As a general rule, human-readable code is preferred over brevity.
+
+Inline comments should be provided where logic or behaviour is unexpected or required due to external factors.
+
+If library code, [JSDoc](http://usejsdoc.org/) comments should be provided as appropriate.
+
 ## React
 
 ### Starting a new project
