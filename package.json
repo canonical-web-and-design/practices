@@ -3,6 +3,7 @@
     "prettier": "1.17.1"
   },
   "scripts": {
+    "prettier-write": "prettier --write **/*.*",
     "prettier-check": "prettier --check **/*.*"
   }
 }
