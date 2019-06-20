@@ -46,6 +46,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8031 | [landscape.canonical.com](https://github.com/canonical-web-and-design/landscape.canonical.com)      |
 | 8032 | [juju-gui](https://github.com/juju/juju-gui)                                                        |
 | 8033 | [docs.jujucharms.com](https://github.com/canonical-web-and-design/docs.jujucharms.com)              |
+| 8034 | [certification.ubuntu.com](https://github.com/canonical-web-and-design/certification.ubuntu.com)    |
 | 8099 | [demoservice](https://github.com/canonical-web-and-design/demoservice)                              |
 | 8101 | [vanilla-framework](https://github.com/canonical-web-and-design/vanilla-framework)                  |
 | 8102 | [vanilla-framework-react](https://github.com/canonical-web-and-design/vanilla-framework-react)      |
