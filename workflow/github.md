@@ -81,9 +81,8 @@ Here are the steps that need to be completed before merging:
 - All [review labels](./labels.md#review) have to be at +1
 - Your pull request must be approved by at least one person
 - Any automated checks must have passed
-- The original author should merge a pull request
-  - This can be overruled when necessary, for example if all looks good and the changes are needed for further development and the author is AFK.
-  - Special care should be taken to ensure there have been no further changes requested
+- Special care should be taken to ensure there have been no further changes requested
+- Any team member may merge a Pull Request once it has met the above requirements. This will usually be the person who added the final +1
 
 ## Templates
 
