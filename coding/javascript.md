@@ -127,7 +127,7 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 
 #### Reducers
 
-- Use [immer](https://github.com/immerjs/immer) for easy immutable state management, removing a whole class of bugs.
+- Use [immer](https://github.com/immerjs/immer) for easy immutable state management, removing a whole class of bugs. To understand why this is important, please read [Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/).
 - [reduceReducers](https://github.com/redux-utilities/reduce-reducers) is a useful tool for combining reducers and removing boilerplate where you have many reducers with identical behaviour.
 
 #### Selectors
