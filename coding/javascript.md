@@ -99,6 +99,7 @@ If you require routing, or state management:
 #### Redux specific
 
 - Selector composition and memoisation - [Reselect](https://github.com/reduxjs/reselect)
+- Immutable state management - [Immer](https://github.com/immerjs/immer)
 - Async/side-effects management (http, localstorage etc.) - [redux-saga](https://github.com/redux-saga/redux-saga)
 
 If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
@@ -126,9 +127,7 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 
 #### Reducers
 
-- Ensure you use [immutable patterns](https://redux.js.org/recipes/structuringreducers/immutableupdatepatterns) for updating the redux store. Using
-  the object spread operator is recommended, but requires a [babel polyfill](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread.html). You might find [Dave Ceddia's Immutability in React and Redux: The Complete Guide](https://daveceddia.com/react-redux-immutability-guide/) helpful.
-- Reducers must be [pure functions](https://redux.js.org/basics/reducers#handling-actions) i.e. they should not mutate their arguments, call impure functions or create side-effects such as API calls.
+- Use [immer](https://github.com/immerjs/immer) for easy immutable state management, removing a whole class of bugs.
 - [reduceReducers](https://github.com/redux-utilities/reduce-reducers) is a useful tool for combining reducers and removing boilerplate where you have many reducers with identical behaviour.
 
 #### Selectors
