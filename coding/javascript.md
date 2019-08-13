@@ -84,6 +84,8 @@ If library code, [JSDoc](http://usejsdoc.org/) comments should be provided as ap
 
 When starting a new React application, we recommend [create-react-app](https://github.com/facebook/create-react-app) for bootstrapping the project. Avoid [ejecting](https://facebook.github.io/create-react-app/docs/available-scripts#npm-run-eject) as long as feasible to make updating dependencies easier.
 
+We recommend new projects use the [hooks API](https://reactjs.org/docs/hooks-intro.html) rather than class based components. Hooks generally make components simpler, allow reuse of stateful non-visual code, and [perform better](https://reactjs.org/docs/hooks-faq.html#are-hooks-slow-because-of-creating-functions-in-render).
+
 ### Preferred libraries
 
 All projects should generally use the following:
@@ -95,6 +97,21 @@ If you require routing, or state management:
 
 - Routing - [react-router](https://github.com/ReactTraining/react-router)
 - Application state management - [Redux](https://redux.js.org)
+
+### Hooks
+
+For hooks based projects, we recommend the following:
+
+- Hooks based components should still follow the class based component's lifecycle ordering:
+  1. computation/logic functions (typically best _outside_ the component)
+  2. state (`useState`)
+  3. side-effects (`useEffect`)
+  4. event handlers
+  5. render
+- Use the [redux hooks API](https://react-redux.js.org/next/api/hooks) and consider `connect` deprecated.
+- Use [ES6 default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters) instead of `defaultProps`.
+- For expensive functions passed down to child components, consider using the [`useCallback` hook](https://reactjs.org/docs/hooks-reference.html#usecallback).
+- Hooks introduce some coupling which means you'll need to `mount` redux connected components when writing enzyme tests (previously you could export the unconnected component).
 
 #### Redux specific
 
