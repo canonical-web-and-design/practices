@@ -122,11 +122,13 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 
 ### Reference projects
 
-[CRBS-UI](https://git.launchpad.net/~crbs/crbs/+git/crbs-ui/tree/), while under active development, probably best reflects our standards for React projects currently.
+[jaas-dashboard](https://github.com/canonical-web-and-design/jaas-dashboard) - project uses the hooks API and reflects current standards.
+
+[maas-ui](https://github.com/canonical-web-and-design/maas-ui) - project uses the hooks API and reflects current standards.
+
+[crbs-ui](https://github.com/canonical-web-and-design/crbs-ui) (aka RBAC) - generally reflects current standards, but class based.
 
 [build.snapcraft.io](https://github.com/canonical-websites/build.snapcraft.io) - a bit dated, but first fully React-centred project in the webteam. Our first use of React, server-side rendering, Redux, Enzyme, etc. While it doesn't fully follow our current standards, it may be a good place to check how some of these libraries were used.
-
-[canonical-webteam/react-starter](https://github.com/canonical-webteam/react-starter) was created to provide a codified example of our standards for React projects (Prettier, AirBnB style). While potentially still a useful reference, it should mostly be considered deprecated as it may not accurately reflect some of the choices we've made in real-world projects.
 
 ### File naming conventions
 
