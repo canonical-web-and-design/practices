@@ -143,6 +143,7 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 
 - Use Redux for state that is shared across multiple routes, or in deep component hierarchies where you find yourself passing `props` through multiple children. Favour local state otherwise. See [Do I have to put all my state in redux?](https://redux.js.org/faq/organizingstate#do-i-have-to-put-all-my-state-into-redux-should-i-ever-use-reacts-setstate)
 - It is fine, and in fact more efficient, to connect components lower in the hierarchy (i.e. don't feel you can only connect a top level component). See [Should I only connect my top component, or can I connect multiple components in my tree?](https://redux.js.org/faq/reactredux#should-i-only-connect-my-top-component-or-can-i-connect-multiple-components-in-my-tree)
+- For consistency, try to build action creators using [flux standard actions](https://github.com/redux-utilities/flux-standard-action#actions).
 
 #### Reducers
 
