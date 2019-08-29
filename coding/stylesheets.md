@@ -201,6 +201,10 @@ developer working with JavaScript, leave these well alone.
 The idea is that -- in order to properly separate our concerns, we
 should never have styling and behaviour bound to the same classes.
 
-# Code Formatting
+## Code Formatting
 
 To ensure consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier) for formatting Sass.
+
+## Stylesheet Linting
+
+To ensure conformity and correctness in Sass files across our codebase, we use [Stylelint](https://stylelint.io/) to lint our Sass files. We use the [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) shared configuration as it plays nicely with Prettier.
