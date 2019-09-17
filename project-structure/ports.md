@@ -53,6 +53,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8038 | [etclite.io](https://github.com/canonical-web-and-design/etclite.io)                                |
 | 8039 | [microstack.io](https://github.com/canonical-web-and-design/microstack.io)                          |
 | 8040 | [charmed-kubernetes.io](https://github.com/canonical-web-and-design/charmed-kubernetes.io)          |
+| 8041 | [juju.is](https://github.com/canonical-web-and-design/juju.is)                                      |
 | 8099 | [demoservice](https://github.com/canonical-web-and-design/demoservice)                              |
 | 8101 | [vanilla-framework](https://github.com/canonical-web-and-design/vanilla-framework)                  |
 | 8102 | [vanilla-framework-react](https://github.com/canonical-web-and-design/vanilla-framework-react)      |
