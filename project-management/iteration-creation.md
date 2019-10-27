@@ -9,13 +9,13 @@ description: These are the steps to follow when creating a new iteration
 
 Go to your squad's repo and create a milestone titled:
 
-Iteration `{YY}`-`{week}` `{date from}` - `{date to}`
+Iteration `{YY}{letter}` ending `{YYYY-MM-DD}`
 
-For example: "Iteration 18-47 20th November - 3rd December."
+For example: “Iteration 19R ending 2019-11-07”
 
 ### Create a small task epic
 
-Create a new epic on the squad repo and attach it to the new milestone. Usually in the format "Small Tasks: Iteration {YY}-{week}"
+Create a new epic on the squad repo and attach it to the new milestone. Usually in the format “Small Tasks {YY}{letter}”
 
 ### Set up the backlog
 
