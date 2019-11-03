@@ -67,6 +67,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8207             | [ubuntu-core-docs](https://github.com/CanonicalLtd/ubuntu-core-docs)                                |
 | 8300             | [global-nav](https://github.com/canonical-web-and-design/global-nav)                                |
 | 8400, 8401, 8402 | [maas-ui](https://github.com/canonical-web-and-design/maas-ui)                                      |
+| 8403             | [react-components](https://github.com/canonical-web-and-design/react-components)                    |
 
 ## Why use a fixed port
 
