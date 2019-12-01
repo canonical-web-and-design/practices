@@ -6,8 +6,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
-gem "jekyll", "~> 3.8"
+gem "jekyll", "~> 4.0.0"
 
 gem "eventmachine", "= 1.2.7"
 
-gem "jekyll-redirect-from", "~> 0.14.0"
+gem "jekyll-redirect-from", "~> 0.15.0"
