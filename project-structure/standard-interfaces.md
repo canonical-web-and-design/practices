@@ -45,9 +45,13 @@ docker build --build-arg BUILD_ID={build-id} .
 
 To enable this, each website projects should contain a `Dockerfile` at the root of the project. This Dockerfile should use [multiple stages](https://docs.docker.com/develop/develop-images/multistage-build/) to do any necessary preparatory steps - e.g. installing dependencies and building assets.
 
-Most images will usually run a service on port `80`, which will typically be run a server through a file called `./entrypoint`, e.g.:
+All images [must be](<https://wiki.canonical.com/InformationInfrastructure/IS/Kubernetes/Policy?highlight=(kubernetes)|(policy)#Docker_images>) built from an official `ubuntu` image. Images should run a service on port `80`, which will typically be started through a file called `./entrypoint`, e.g.:
 
 ```dockerfile
+FROM ubuntu:bionic
+
+# ... other RUN, ADD commands etc.
+
 # Setup commands to run server
 ENTRYPOINT ["./entrypoint"]
 CMD ["0.0.0.0:80"]
