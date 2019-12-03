@@ -13,9 +13,9 @@ These defined `scripts` can be run either with `yarn run {script-name}` or throu
 
 Our standard script names:
 
-- `start`: The standard entrypoint for local development. It should run any required watchers for rebuilding files as they change, and run any local development servers etc..
+- `start` (required): The standard entrypoint for local development. It should run any required watchers for rebuilding files as they change, and run any local development servers etc..
   - E.g.: `concurrently 'yarn run watch' 'yarn run serve'`
-- `build`: Build all the required assets for the project to be published. This may simply run a number of other scripts per filetype, e.g.:
+- `build`: Manually build any required assets for the project to run. This may simply run a number of other scripts per filetype, e.g.:
   - `build-js`: Build the JavaScript files
   - `build-css`: Build any SCSS files etc. into CSS
 - `serve`: Run the a local webserver. This will typically use the same `./entrypoint` script as is used by the production Docker image (see below).
@@ -33,18 +33,19 @@ Our standard script names:
   - `format-js`: Format JavaScript with Prettier
   - `format-css`: Format SCSS files with Prettier
 
-Basically every project should define at least `start` and `build`. All website projects should define `serve`. Any project may define any number of further scripts, as needed.
+Basically every project should define at least `start`. All website projects should define `serve`. Any project may define any number of further scripts, as needed.
 
 ## Publishing websites and `entrypoint`
 
 We publish our website projects by building Docker images from them for deploying to our Kubernetes cluster. We build these images with e.g.:
 
 ```bash
-yarn run build
-docker build --build-arg TALISKER_REVISION_ID={build-id} .
+docker build --build-arg BUILD_ID={build-id} .
 ```
 
-To enable this, each website projects should contain a `Dockerfile` at the root of the project. This Dockerfile will typically be run a server through a file called `./entrypoint`, e.g.:
+To enable this, each website projects should contain a `Dockerfile` at the root of the project. This Dockerfile should use [multiple stages](https://docs.docker.com/develop/develop-images/multistage-build/) to do any necessary preparatory steps - e.g. installing dependencies and building assets.
+
+Most images will usually run a service on port `80`, which will typically be run a server through a file called `./entrypoint`, e.g.:
 
 ```dockerfile
 # Setup commands to run server
@@ -52,4 +53,4 @@ ENTRYPOINT ["./entrypoint"]
 CMD ["0.0.0.0:80"]
 ```
 
-`package.json`, the `node_modules` folder and any other unused files should usually not be included or used in our published images, and should be ignored through `.dockerignore`.
+`package.json`, the `node_modules` folder and any other unused files should usually not be included or used in our published images, and so should either be ignored through `.dockerignore` or explicitly removed in the `Dockerfile`.
