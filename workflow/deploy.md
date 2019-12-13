@@ -42,7 +42,7 @@ We created a script to automatically create the configuration you need. Clone th
 ```bash
 $ git clone https://github.com/canonical-webteam/deployment-configs.git
 $ cd deployment-configs
-$ python create-project <DNS_OF_THE_WEBSITE>
+$ python create-project {DOMAIN_NAME}
 ```
 
 ### Create jobs on Jenkins
@@ -51,23 +51,18 @@ In order to deploy to Kubernetes you will need to create 2 Jenkins jobs on the w
 
 Update the **apply** job:
 
-- Go to the [configure page](https://jenkins.canonical.com/webteam/job/apply-production-deployment-configs/configure)
-- Add these lines:
+- If you are going to deploy a new site, check that the file `/sites/{DOMAIN_NAME}.yaml` exists in the [deployment configs repository](https://github.com/canonical-web-and-design/deployment-configs)
+- Go to the [staging configuration](https://jenkins.canonical.com/webteam/job/apply-staging-deployment-configs/configure) and [production configuration](https://jenkins.canonical.com/webteam/job/apply-production-deployment-configs/configure) on Jenkins and add this line at the end of both build scripts:
 
-```bash
-export TAG_TO_DEPLOY=$(kubectl get deployment <DNS_OF_THE_WEBSITE_WITH-DASHES> --namespace production --output jsonpath="{.spec.template.spec.containers[*].image}" | grep -P -o '(?<=:)[^:]*$')
-envsubst < services/<DNS_OF_THE_WEBSITE>.yaml | kubectl apply --namespace production --filename -
-
-[...]
-
-kubectl apply --namespace production --filename ingresses/production/<DNS_OF_THE_WEBSITE>.yaml
-```
+  ```bash
+  deploy {DOMAIN_NAME}
+  ```
 
 Create the **staging** job:
 
 - Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
-  - Item name: _deploy-to-<STAGING_DNS>_
-  - Copy from (at the bottom the page): _deploy-to-design.staging.ubuntu.com_
+  - Item name: _{DOMAIN_NAME}-staging_
+  - Copy from (at the bottom the page): _ubuntu.com-staging_
 - Change those parameters on the configuration page:
   - _General_ -> _Github project_: insert the Github repository
   - _Source code management_ -> _Repositories_ -> _Repository URL_: insert the GitHub repository
@@ -77,8 +72,8 @@ Create the **staging** job:
 Create the **production** job:
 
 - Create a [New Item](https://jenkins.canonical.com/webteam/view/all/newJob):
-  - Item name: _deploy-to-<PRODUCTION_DNS>_
-  - Copy from (at the bottom of the page): _deploy-to-design.ubuntu.com_
+  - Item name: _{DOMAIN_NAME}-production_
+  - Copy from (at the bottom of the page): _ubuntu.com-production_
 - Change those parameters on the configuration page:
   - _Build_: Update the script with the rights values
 - Save
