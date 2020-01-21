@@ -1,9 +1,9 @@
 ---
-title: Tools we use
-description: List of tools we use to speed things up
+title: Tools and services we use
+description: List of tools and services we use to speed things up
 ---
 
-This document outlines the tools we use to increase efficiency.
+This document outlines the tools and services we use to increase efficiency.
 
 ## Assets manager
 
@@ -11,7 +11,7 @@ All assets are stored on our [assets manager](https://manager.assets.ubuntu.com/
 
 ## Demos
 
-From the [./run demo] website you can view all the [running demos](https://run.demo.haus/), [stop a demo](https://run.demo.haus/stop) or create a [new demo](https://run.demo.haus/start).
+From the [./run demo](https://run.demo.haus/) website you can view all the [running demos](https://run.demo.haus/), [stop a demo](https://run.demo.haus/stop) or create a [new demo](https://run.demo.haus/start).
 
 ## Website deployment
 
