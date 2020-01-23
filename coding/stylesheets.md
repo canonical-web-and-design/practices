@@ -208,3 +208,10 @@ To ensure consistency across our codebase, we use [Prettier](https://github.com/
 ## Stylesheet Linting
 
 To ensure conformity and correctness in Sass files across our codebase, we use [Stylelint](https://stylelint.io/) to lint our Sass files. We use the [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) shared configuration as it plays nicely with Prettier.
+
+## Z-index ranges
+
+These are the [`z-index`](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) ranges that we have reserved for specific plugins. Website projects should avoid using these ranges, and choose sensible `z-index` values accordingly:
+
+- [global-nav](https://github.com/canonical-webteam/global-nav): `90` to `100`
+- [cookie-policy](https://github.com/canonical-webteam/cookie-policy/): `200`
