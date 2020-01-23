@@ -39,6 +39,14 @@ Rollup and Webpack for the most part have feature parity, so this is mostly a ma
 
 We use [Yarn](https://yarnpkg.com/en) for dependency management.
 
+### Packaging
+
+#### Use the npm files array
+
+Use the package.json `files` array to whitelist files for inclusion in your package. This is the safest approach, as it is explicit; using `.npmignore` is potentially dangerous, as you may end up packaging files unintentionally (credentials in a .env file being the worst case scenario!).
+
+See [Publishing what you mean to publish](https://blog.npmjs.org/post/165769683050/publishing-what-you-mean-to-publish) for further details.
+
 ### Testing
 
 We use the [Jest](https://jestjs.io) unit test framework.
