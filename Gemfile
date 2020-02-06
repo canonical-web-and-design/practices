@@ -10,4 +10,4 @@ gem "jekyll", "~> 4.0.0"
 
 gem "eventmachine", "= 1.2.7"
 
-gem "jekyll-redirect-from", "~> 0.15.0"
+gem "jekyll-redirect-from", "~> 0.16.0"
