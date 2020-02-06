@@ -151,7 +151,6 @@ Once the containers are setup, you can visit <http://127.0.0.1:8001> in your bro
 
 For more detailed local development instructions, see [HACKING.md](HACKING.md).
 
-````
 ### License section
 
 This is the same for all our repos.  Code is licensed under LGPLv3 and content under reative Commons Attribution-ShareAlike 4.0 International license.  You can just borrow this code.
@@ -163,4 +162,4 @@ The content of this project is licensed under the [Creative Commons Attribution-
 
 
 With ♥ from Canonical
-````
+```
