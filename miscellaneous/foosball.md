@@ -26,3 +26,5 @@ Outlined below are the team's official rules for foosball:
 - _This rule is purely theoretical, and should not be used on real human beings_
 
 **"Lifting"**: When the ball can not be reached by any players, the table must be lifted by the team whose half the ball is in. Play is stopped until the table is back on the ground.
+
+**Foosing**: When a defender is trying to clear the ball and the offensive 3-man rod deflects the ball back into the defender's own goal.
