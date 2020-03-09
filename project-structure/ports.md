@@ -57,6 +57,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8042             | [charmed-osm.com](https://github.com/canonical-web-and-design/charmed-osm.com)                      |
 | 8043             | [anbox-cloud.io](https://github.com/canonical-web-and-design/anbox-cloud.io)                        |
 | 8044             | [ideahub](https://github.com/canonical-web-and-design/ideahub)                                      |
+| 8045             | [charmhub.io](https://github.com/canonical-web-and-design/charmhub.io)                              |
 | 8099             | [demoservice](https://github.com/canonical-web-and-design/demoservice)                              |
 | 8101             | [vanilla-framework](https://github.com/canonical-web-and-design/vanilla-framework)                  |
 | 8102             | [vanilla-framework-react](https://github.com/canonical-web-and-design/vanilla-framework-react)      |
