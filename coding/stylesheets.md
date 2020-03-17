@@ -1,20 +1,19 @@
 ---
-title: BEM coding standard
+title: Stylesheet coding standards
 description: Code style standards for CSS and Sass
 ---
 
-For a quick recap on BEM, it works by breaking down all classes in a
-codebase into one of three groups:
+Our stylesheet conding standard is based on [BEM methodology](http://getbem.com/).
+
+All class names in the codebase are built of three parts:
 
 - Block: The sole root of the component.
-
 - Element: A component part of the Block.
-
-- Modifier: A variant or extension of the Block.
+- Modifier: A variant or extension of the Block or Element.
 
 The point of BEM is to give a lot more transparency and clarity to your
-markup. BEM informs developers how classes relate to each other, which
-is particularly useful in complex or deep pieces of DOM.
+markup. This naming structure informs developers how classes relate to each other,
+which is particularly useful in complex or deep pieces of DOM.
 
 There are a number of common problems when working with CSS at scale,
 but the major two that this document aims to solve are clarity and
