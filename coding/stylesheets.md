@@ -1,7 +1,11 @@
 ---
-title: BEM coding standard
+title: Stylesheets coding standard
 description: Code style standards for CSS and Sass
 ---
+
+## BEM methodology
+
+Our stylesheet conding standard is based on [BEM methodology](http://getbem.com/).
 
 For a quick recap on BEM, it works by breaking down all classes in a
 codebase into one of three groups:
