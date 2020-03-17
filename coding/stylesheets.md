@@ -3,7 +3,7 @@ title: Stylesheet coding standards
 description: Code style standards for CSS and Sass
 ---
 
-Our stylesheet conding standard is based on [BEM methodology](http://getbem.com/).
+Our stylesheet coding standards are based on [BEM methodology](http://getbem.com/).
 
 All class names in the codebase are built of three parts:
 
