@@ -1,5 +1,5 @@
 ---
-title: Stylesheets coding standard
+title: Stylesheet coding standards
 description: Code style standards for CSS and Sass
 ---
 
