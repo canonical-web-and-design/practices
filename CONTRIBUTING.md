@@ -27,7 +27,7 @@ When you add, remove or move a document, please update the navigation structure 
 
 ### Collaborating on large documents
 
-The process of approving small pull-requests can seem overly cumbersome when trying to add significant amounts of content. This will likely be most difficult more towards the project's inception, when there's still not much content, and become less relevant over time.
+The process of approving small pull requests can seem overly cumbersome when trying to add significant amounts of content. This will likely be most difficult more towards the project's inception, when there's still not much content, and become less relevant over time.
 
 To get around this it may make more sense to ask the team to collaborate on long documents in an interactive writing tool like [Google Docs](https://docs.google.com/), where many people can quickly build up a shared vision.
 

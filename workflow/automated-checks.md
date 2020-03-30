@@ -3,7 +3,7 @@ title: Automated checks
 description: How we set up automated checks for our GitHub projects
 ---
 
-Every official team project should be set up to [require a number of checks to pass](https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks) before a pull-request can be merged.
+Every official team project should be set up to [require a number of checks to pass](https://help.github.com/en/github/administering-a-repository/enabling-required-status-checks) before a pull request can be merged.
 
 ## Prefer GitHub workflows
 
@@ -11,9 +11,9 @@ These check should be written as [GitHub workflows](https://help.github.com/en/a
 
 > ⓘ At the time of writing, the chief reason to create a check in Circle CI rather than GitHub workflows is because you need to run checks against forked branches that need secrets - e.g. [Percy checks](https://percy.io/). GitHub workflows [don't currently support this](https://github.community/t5/GitHub-Actions/Make-secrets-available-to-builds-of-forks/td-p/30678).
 
-## What to check on pull-requests
+## What to check on pull requests
 
-All the GitHub workflows that are run on pull-requests should be kept in a file called `pr.yaml`.
+All the GitHub workflows that are run on pull requests should be kept in a file called `pr.yaml`.
 
 All website projects should run as many of the following checks as make sense:
 
