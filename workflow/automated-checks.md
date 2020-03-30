@@ -29,6 +29,6 @@ All website projects should run as many of the following checks as make sense:
 
 ## Running checks against master
 
-We may also want to run some checks against the master branch to check the integrity of the codebase. An example of this might be using [`linkchecker`](https://development.robinwinslow.uk/2013/10/03/linkchecker/) to check internal links, or cypress to check forms. These could either be run whenever something is merged into `master`, or [on a schedule](https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule).
+We may also want to run some checks against the master branch to check the integrity of the codebase. An example of this might be using [`linkchecker`](https://development.robinwinslow.uk/2013/10/03/linkchecker/) to check internal links, or [Cypress](https://www.cypress.io/) to check forms. These could either be run whenever something is merged into `master`, or [on a schedule](https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule).
 
 > ⓘ For example, [Cypress checks on ubuntu.com](https://github.com/canonical-web-and-design/ubuntu.com/blob/master/.github/workflows/cypress.yml)
