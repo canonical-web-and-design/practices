@@ -9,7 +9,7 @@ In this part you will find a description of all the labels we use on issues.
 
 | Label       | Description                                                                                                                                                                                      |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Don't merge | While this label is present this pull-request should not be merged                                                                                                                               |
+| Don't merge | While this label is present this pull request should not be merged                                                                                                                               |
 | Duplicate   | This issue already exists                                                                                                                                                                        |
 | Epic        | This issue is a [ZenHub epic](https://www.zenhub.com/blog/working-with-epics-in-github/), which is a GitHub issue that points to a list of other Issues. It is uses to support our Agile process |
 | Master Epic | This is a master [ZenHub epic](https://www.zenhub.com/blog/working-with-epics-in-github/), or an Epic of Epics                                                                                   |
