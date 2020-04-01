@@ -40,7 +40,7 @@ For guidelines on contributing to these documents, see [CONTRIBUTING.md](CONTRIB
 
 This code base uses [Prettier](https://prettier.io) to ensure consistent formatting.
 
-To run Prettier over the code base (assuming you have [npm](https://www.npmjs.com) installed), run:
+To run Prettier over the code base (assuming you have [yarn](https://yarnpkg.com/getting-started/install) installed), run:
 
 ```
 yarn prettier-write **/*
