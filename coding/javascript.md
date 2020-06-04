@@ -72,6 +72,10 @@ We use the [Jest](https://jestjs.io) unit test framework.
 - Reducers, action creators and selectors should all have simple functional tests.
 - Test composed Reselect selectors in isolation with [resultFunc](https://github.com/reduxjs/reselect#q-how-do-i-test-a-selector).
 
+##### Testing data-attr
+The naming convention for testing data attrubutes is: `data-test="<identifiable string>"`.
+This gives all projects a common interface when testing and search the project to testing attributes.
+
 ### Code style & formatting
 
 To ensure code formatting consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier).
