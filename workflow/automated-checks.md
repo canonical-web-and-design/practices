@@ -18,7 +18,7 @@ All the GitHub workflows that are run on pull requests should be kept in a file 
 All website projects should run as many of the following checks as make sense:
 
 - `run-image`: Build the docker image from the `Dockerfile` and check it successfully runs the website
-- `run-serve`: Check `yarn run serve` successfully runs the development server
+- `run-dotrun`: Check the `dotrun` command (the [dotrun snap](https://snapcraft.io/dotrun)) runs the development server successfully
 - `lint-scss`: Check `.scss` files conform to [our formatting standards](https://canonical-web-and-design.github.io/practices/coding/stylesheets)
 - `lint-js`: Check `.js` files conform to [our formatting standards](https://canonical-web-and-design.github.io/practices/coding/javascript)
 - `lint-python`: Check `.py` files conform to [our formatting standards](https://canonical-web-and-design.github.io/practices/coding/python.html)
