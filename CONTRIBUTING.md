@@ -21,10 +21,6 @@ To start a new document, the initial pull request should simply create the docum
 
 This can then be merged more quickly so that others can start adding sections to the new document as soon as possible.
 
-### Navigation
-
-When you add, remove or move a document, please update the navigation structure contained in both `_layouts/base.html` and `index.md`.
-
 ### Collaborating on large documents
 
 The process of approving small pull requests can seem overly cumbersome when trying to add significant amounts of content. This will likely be most difficult more towards the project's inception, when there's still not much content, and become less relevant over time.
