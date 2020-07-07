@@ -10,7 +10,7 @@ This document outlines the guidelines on our tools (e.g. Miro, Zeplin, GitHub) a
 - [Feedback convention (across tools)](#feedback-convention)
 - [What tools do we use?](#what-tools-do-we-use)
   - [Miro](#miro)
-  - [Docs & Specs](#docs-and-specs)
+  - [Docs and Specs](#docs-and-specs)
   - [Zeplin](#zeplin)
   - [General direction](#general-direction)
 - [Zeplin/Miro status convention](#zeplin-miro-status-convention)
@@ -26,9 +26,9 @@ This document outlines the guidelines on our tools (e.g. Miro, Zeplin, GitHub) a
 - [Resolving comments](#resolving-comments)
 
 
-## feedback-convention
+## Feedback-convention
 
-Problems: semantic gap, hard to categorize the feedback,  need a way to receive feedback that can help us redesign the wireframes better and understand the motivation behind the feedback.
+Problems: semantic gap, hard to categorise the feedback,  need a way to receive feedback that can help us redesign the wireframes better and understand the motivation behind the feedback.
  
 Start your comment with:
 
@@ -39,12 +39,12 @@ For components that you like and that we should keep it.
 For components that you think
 - Can be improved
 - Disagree with and would like to propose an alternative behaviour
-- Would like to patternized
+- Would like to patternised
 - Need clarification (express which part is confusing)
 - If you have a question, please formulate it as "I wish...", this will be really helpful to learn about what you have in mind.
  
 **3. INFO: (tag a purple colour on the Zeplin comment)**
-- When you don’t want to express an opinion, but would like to share information, caveat, or references that I might have missed or overlooked in the prototype/wireframe.
+- When you don’t want to express an opinion, but would like to share information, caveat, or references that might have been missed or overlooked in the prototype/wireframe.
 
 
 ## What tools do we use?
@@ -52,7 +52,7 @@ For components that you think
 ### Miro
 Miro is very valuable especially during the discovery and definition phase. You might want to consider starting in Miro during the definition and the initial stage of the project with core engineers instead of Zeplin.
 
-### Doc & Specs
+### Doc and Specs
 Spec docs with core engineers are also very important for the definition of the feature and to start a conversation around API, user stories and functionality.
 
 ### Zeplin
@@ -92,7 +92,7 @@ Status can be used to display the phase of the project so that people know you a
 ### Proposed tags, to be added for review stages
 We discussed reflecting the tag-naming convention from GitHub when asking for a certain type of feedback:
 - Review: UX needed
-- Review: design needed
+- Review: Design needed
 - Review: QA needed
 
 
@@ -121,7 +121,7 @@ Do put links to specs, docs or issues/epics in the description field, so people 
 ### Who is it for?
 
 What feedback do you want? UX input, visual input, front-end input, engineering input etc.
-When uploading, think about the status of the project, what would you like feedback on may affect who you want to share it with it.
+When uploading, think about the status of the project, what would you like feedback on may affect who you want to share it with.
 
 
 ## Inviting people to projects
