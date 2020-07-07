@@ -26,7 +26,7 @@ This document outlines the guidelines on our tools (e.g. Miro, Zeplin, GitHub) a
 - [Resolving comments](#resolving-comments)
 
 
-## Feedback-convention
+## Feedback convention
 
 Problems: semantic gap, hard to categorise the feedback,  need a way to receive feedback that can help us redesign the wireframes better and understand the motivation behind the feedback.
  
@@ -64,7 +64,7 @@ We should work more on documents/specs to discuss things first, back and forth w
 
 ## Zeplin/Miro status convention
 
-### Status & tags
+### Status and tags
 Status can be used to display the phase of the project so that people know you are looking for feedback reflecting that status, e.g.: ‘explorations’ (UX phase, asking for UX and scoping type of feedback, including implementation constraints and feasibility).
 
 ### Status terminology:
@@ -78,7 +78,7 @@ Status can be used to display the phase of the project so that people know you a
 - Use cases, scenarios
 
 **Exploration**
-- First iterations of sketches/wireframes after spec & definition
+- First iterations of sketches/wireframes after spec and definition
 - Final UX proposal (last wireframe to conclude UX)
 
 **Visual**
