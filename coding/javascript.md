@@ -103,7 +103,7 @@ A common pattern in react is to spread `...rest` into a child component, allowin
 
 Typically, these props will be spread into either an html element, or another react component. The following are some helpful patterns for managing this with TypeScript:
 
-When typing `...rest` for an html child, React helpfully provides the `HTMLAttributes` generic which you can provide with a specific HTML element type. Some html elements that only inherit global attributes, like `<aside>`, have no specific type, and can be typed with `HTMLElement`. If you're using an IDE with good TypeScript support, you should find auto-completions for these types when typing `HTML`...
+When typing `...rest` for an html child, React helpfully provides the `HTMLAttributes` and `HTMLProps` generics which you can provide with a specific HTML element type. Some html elements that only inherit global attributes, like `<aside>`, have no specific type, and can be typed with `HTMLElement`. If you're using an IDE with good TypeScript support, you should find auto-completions for these types when typing `HTML`...
 
 It can be helpful to rename `...rest` (e.g. `...divProps`) to reflect which component the props are spread into.
 
@@ -157,6 +157,8 @@ const Car = ({ colour, ...wheelProps }: Props): JSX.Element => (
 
 renders => "<p>My car is red. My car is boring.</p>"
 ```
+
+For a real world example of this, have a look at the [Accordion component](https://github.com/canonical-web-and-design/react-components/blob/master/src/components/Accordion/Accordion.tsx#L37) in react-components.
 
 #### Other resources
 
