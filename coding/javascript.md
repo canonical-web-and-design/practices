@@ -8,24 +8,161 @@ redirect_from:
 
 This document outlines the rules for writing JavaScript across our codebase.
 
-## Progressive Enhancement
+## General Principles
+
+### Progressive Enhancement
 
 JavaScript should progressively enhance a page.
 
 On all publicly accessible websites, core content and functionality should still be available without JavaScript. JavaScript applications written for a more specific audience which won't be indexed by search engines may be more lax, but should still treat progressive enhancement as a guiding principle.
 
-## Performance
+### Performance
 
 - Cache DOM queries — only select an element once.
 - Use event delegation as much as possible to reduce the number of events bound to the page
 - Understand when you cause an element repaint and reduce inline style manipulations accordingly.
 - If possible, always use CSS for element transforms and transitions.
 
-## Element hooks
+### Element hooks
 
 We should target page element in JavaScript using the `data-js` element attribute instead of using the `class` attribute. Classnames should be used for styling only.
 
 e.g. `<a data-js="index-link" href="/index">Index</a>`.
+
+## TypeScript
+
+### TypeScript vs JavaScript
+
+For any medium-large JavaScript applications, consider using TypeScript in preference to JavaScript, as it offers a better developer experience, and increased safety. See [Transitioning to TypeScript](https://docs.google.com/document/d/1yXNI_biuKwoHBk2goLEksZayV_MGAkQxukvSNLCDtnE/edit#heading=h.yij8xaij9lcy) for more details.
+
+Remember that TypeScript gives you the ability to _progressively_ type your project; it isn't an all or nothing commitment. If you like, you can convert JavaScript files to TypeScript one at a time, if migrating an existing project.
+
+TypeScript is currently used in the following projects:
+
+- [maas-ui](https://github.com/canonical-web-and-design/react-components/)
+- [react-components](https://github.com/canonical-web-and-design/react-components/)
+
+### Patterns
+
+#### Importing types
+
+You can use the `type` keyword when importing a type, e.g.:
+
+`import type { ReactNode } from "react"`;
+
+This makes it clear that a type has been imported, rather than a component or class, and also provides some minor build optimisation via [type erasure](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html#type-only-imports-and-exports).
+
+#### How do I type that?
+
+Sometimes you'll have difficulty finding the appropriate type. A handy escape hatch you can make use of when starting out, is to declare a placeholder type called `TSFixMe`, aliased to `any`. Using this type means that the object in question is effectively untyped, however it is easily grepable for later improvement.
+
+```ts
+export type TSFixMe = any;
+```
+
+usage:
+
+```ts
+type Props = {
+  name: string;
+  confusingThing: TSFixMe; // to be typed later
+};
+```
+
+Similarly `ts-ignore` can be used as a last ditch escape hatch, but it's use is strongly discouraged:
+
+```ts
+if (false) {
+  // @ts-ignore: Unreachable code error
+  console.log("boom");
+}
+```
+
+#### Typing react components
+
+##### Props
+
+Typically you'll want to provide a type for `props` and a return type.
+
+`props` should be typed in the same file as the component, and typically a functional component will have the return type `JSX.Element`:
+
+```typescript
+type Props = {
+  name: string;
+  age: number;
+}
+
+const Person = ({ name, age }: Props): JSX.Element => ()
+```
+
+Add types for any functions defined in the same module as you see fit.
+
+##### Destructured props with `...rest`
+
+A common pattern in react is to spread `...rest` into a child component, allowing you to pass attributes to children without manually defining the props in the parent component.
+
+Typically, these props will be spread into either an html element, or another react component. The following are some helpful patterns for managing this with TypeScript:
+
+When typing `...rest` for an html child, React helpfully provides the `HTMLAttributes` and `HTMLProps` generics which you can provide with a specific HTML element type. Some html elements that only inherit global attributes, like `<aside>`, have no specific type, and can be typed with `HTMLElement`. If you're using an IDE with good TypeScript support, you should find auto-completions for these types when typing `HTML`...
+
+It can be helpful to rename `...rest` (e.g. `...divProps`) to reflect which component the props are spread into.
+
+```tsx
+// html child
+import type { HTMLAttributes } from "react";
+
+type Props = {
+  colour: string;
+} & HTMLAttributes<HTMLDivElement>;
+
+const Car = ({ colour, ...divProps }: Props): JSX.Element => (
+  <div {...divProps}>`My car is ${colour}.`</div>
+);
+```
+
+```tsx
+// react child
+
+// Wheels.tsx
+export type Props = {
+  spinners: boolean;
+}
+
+export const Wheels = ({ spinners }: Props): JSX.Element => {
+  if (spinners) {
+    return (
+      <>My car is gangsta.</>
+    )
+  }
+  return <>My car is boring.</>
+};
+
+// Car.tsx
+import { Wheels } from "./Wheels";
+import type { Props as WheelsProps } from "./Wheels";
+
+type Props = {
+  colour: string;
+} & WheelsProps;
+
+const Car = ({ colour, ...wheelProps }: Props): JSX.Element => (
+  <p>
+    `My car is ${colour}.`
+    <Wheels {...wheelProps} />
+  </p>
+)
+
+// In use
+<Car colour="red" spinners={false} />
+
+renders => "<p>My car is red. My car is boring.</p>"
+```
+
+For a real world example of this, have a look at the [Accordion component](https://github.com/canonical-web-and-design/react-components/blob/master/src/components/Accordion/Accordion.tsx#L37) in react-components.
+
+#### Other resources
+
+[React+Typescript Cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 
 ## Tooling
 
