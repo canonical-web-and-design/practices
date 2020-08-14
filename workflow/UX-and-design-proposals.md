@@ -31,37 +31,36 @@ This document outlines the guidelines on our tools (e.g. Miro, Zeplin, GitHub) a
   - [90% A last check before development](#90%-A-last-check-before-development)
 - [Google Drive folder structure](#google-drive-folder-structure)
 
-
 ## Project status
 
 Status can be used so that people know you are looking for feedback that reflects that status, e.g. ‘exploration’ (asking for feedback on UX and scoping, including implementation constraints and feasibility).
 
 ### Definition
 
--   Work on specs
--   Definition phase
--   Conceptual work
--   User interviews
--   Core engineers and stakeholders sync
--   Personas, user stories
--   Use cases, scenarios
+- Work on specs
+- Definition phase
+- Conceptual work
+- User interviews
+- Core engineers and stakeholders sync
+- Personas, user stories
+- Use cases, scenarios
 
 ### UX
 
--   First iterations of sketches/wireframes
--   Wireframes (iteration 1, 2 etc)
--   Final UX proposal (last wireframe to conclude UX)
+- First iterations of sketches/wireframes
+- Wireframes (iteration 1, 2 etc)
+- Final UX proposal (last wireframe to conclude UX)
 
 ### Visual
 
--   Visual design (iteration 1, 2 etc)
--   Final visual design
--   Feedback on the visual
+- Visual design (iteration 1, 2 etc)
+- Final visual design
+- Feedback on the visual
 
 ### Development
 
--   This is ready to be implemented
--   Highlight implementation specs, annotation
+- This is ready to be implemented
+- Highlight implementation specs, annotation
 
 ## What tools do we use?
 
@@ -84,18 +83,21 @@ When ready for wireframes and visual design it can then move to Zeplin. Use tags
 ### Naming convention
 
 **Main section**
+
 - To group all the projects we use the main section on Zeplin, which groups things on a cycle and product level. It should be named [CycleYY.MM Product]
-	
+
 Example: “20.04 Snap”
 
 **Projects name**
-- Name your projects this way, using the year and the month of the cycle the project refers to: [CycleYY.MM] [Product] - [Project name]
-	
+
+- Name your projects this way, using the year and the month of the cycle the project refers to: [CycleYY.MM][product] - [Project name]
+
 Example: “20.04 Snap - Progressive release”
 
 **Project sections**
--   Name your sections and your artboards so they make sense to others. And to you, in 6 months time.
--   Others need to know the phase, what they're looking at and what kind of thing it is: "[Project status] - [Design name] [Iteration]"
+
+- Name your sections and your artboards so they make sense to others. And to you, in 6 months time.
+- Others need to know the phase, what they're looking at and what kind of thing it is: "[Project status] - [Design name][iteration]"
 
 Examples:
 
@@ -107,23 +109,26 @@ Examples:
 “Visual - Homepage V1”
 “Visual - Homepage V2”
 
--   Try to upload new screens into new sections when the changes are enough to justify a new iteration of the work, let's not replace screens (except for quick fixes and typos) when working on a new version of the iteration.
+- Try to upload new screens into new sections when the changes are enough to justify a new iteration of the work, let's not replace screens (except for quick fixes and typos) when working on a new version of the iteration.
 
 ### Zeplin status
+
 A project should reflect the current status using the status option on Zeplin.
 
 ### Links to specs docs epics
+
 Put links to specs, docs or issues/epics in the description field, so people can find their way back to the spec and to the associated cards.
 
 ### Inviting people to projects
--   Consider you can invite people at different times. You want to focus more on getting feedback on functionality, user experience, visual? It doesn't mean to invite these disciplines only, but to be clear on the status/phase of the project.
--   Remember you can always use <webteam@lists.canonical.com> and <design@lists.canonical.com> to share and ask for feedback.
+
+- Consider you can invite people at different times. You want to focus more on getting feedback on functionality, user experience, visual? It doesn't mean to invite these disciplines only, but to be clear on the status/phase of the project.
+- Remember you can always use <webteam@lists.canonical.com> and <design@lists.canonical.com> to share and ask for feedback.
 
 ### Resolving comments
 
--   We should not resolve comments, let's keep track of comments whenever possible.
--   When a comment is addressed and completed we can then add 'done' to keep record of when things are closed, instead of resolving the comment.
--   Uploading new screens on different sessions will let comments stay where they originally were added: try to upload new screens into new sections when the changes are enough to justify a new iteration of the work. Let's not replace screens (except for quick fixes and typos) when working on a new version of the iteration.
+- We should not resolve comments, let's keep track of comments whenever possible.
+- When a comment is addressed and completed we can then add 'done' to keep record of when things are closed, instead of resolving the comment.
+- Uploading new screens on different sessions will let comments stay where they originally were added: try to upload new screens into new sections when the changes are enough to justify a new iteration of the work. Let's not replace screens (except for quick fixes and typos) when working on a new version of the iteration.
 
 ## Giving feedback
 
@@ -132,25 +137,26 @@ Motivations behind creating this practice: time zones, semantic gap, hard to cat
 ### Start your comment with
 
 **1. “+1” or “I like…”**
+
 - The purpose is to highlight what is agreed or what fits the requirements.
 
 - For components that you like and that we should keep it.
 - Good to go, agreed and signed off (in relation to the context the comment is on)
 
-*When on Zeplin, use the green tag for this
-
+\*When on Zeplin, use the green tag for this
 
 **2. “I wish… because” or “I think… because”**
+
 - The purpose is to get to the point and provide explanation/reasoning behind it.
 
-*When on Zeplin, use the yellow tag for this
+\*When on Zeplin, use the yellow tag for this
 
 This could include components you think:
 
--   Can be improved
--   Would like to propose an alternative behaviour
--   Would like to patternized
--   Needs clarification (express which part is confusing)
+- Can be improved
+- Would like to propose an alternative behaviour
+- Would like to patternized
+- Needs clarification (express which part is confusing)
 
 Examples:
 “I wish this component has x, because for z users this can be confused with another component.”
@@ -159,9 +165,10 @@ Examples:
 “I think you’ve used the wrong logo/colour/icon because X website uses another one”
 
 **3. “Info”**
+
 - When you don’t want to express an opinion, but would like to share information, caveat, or references that I might have missed or overlooked in the prototype/wireframe.
 
-*When on Zeplin, use the purple tag for this
+\*When on Zeplin, use the purple tag for this
 
 Examples:
 “[INFO] we use a very similar component elsewhere, please have a look at this…”
@@ -169,10 +176,11 @@ Examples:
 “[INFO] we have a pattern that fits this use case”
 
 **4. “What if…” or “I wonder...”**
-- The purpose is to propose an alternative solution (what would be good). Depending on the stage of the project this could be on a discovery, UX, visual or implementation level.
-**The ideal comment would also add reasoning to the proposal**, or add “because…” if your comment needs elaborating or add context on what could be improved.
 
-*When on Zeplin, use the blue tag for this
+- The purpose is to propose an alternative solution (what would be good). Depending on the stage of the project this could be on a discovery, UX, visual or implementation level.
+  **The ideal comment would also add reasoning to the proposal**, or add “because…” if your comment needs elaborating or add context on what could be improved.
+
+\*When on Zeplin, use the blue tag for this
 
 Examples:
 “What if we add x colour to this? I think it will be easier to capture our users’ attention.”
@@ -182,6 +190,7 @@ Examples:
 ### When do we comment?
 
 **Peer review metaphor**
+
 - Soliciting feedback from our peers (other designers) should be more about asking "what haven't I thought of", rather than "do you approve of my solution" - and more akin to a peer review than a critique.
 
 As feedback-givers we should think twice before pressing "post" on an item of feedback and ask ourselves "does this comment further the goal of improving the end-user's experience?"
@@ -191,11 +200,13 @@ There should be a level of mutual respect and trust, sufficient that comments ar
 As design professionals we should feel empowered to consider feedback and then incorporate or disregard it as we see fit. Of course, we shouldn't dismiss all feedback but we should aim to strike a balance.
 
 **Design direction**
+
 - If there are comments which are more fundamental about the feature, we should ping each other as opposed to leaving comments as this would lead to more confusion.
 
 **Does it need a comment?**
+
 - Wonder whether it needs to be a comment at all, or if the matter requires a quick chat or a deeper understanding cross-discipline.
-Add comments that use the feedback convention above to help the author understand your comments.
+  Add comments that use the feedback convention above to help the author understand your comments.
 
 ## 30:60:90 Method
 
@@ -232,12 +243,14 @@ At 90% we are about to hand over to development. By now, we should have tested t
 
 For our Google Drive Web & Design team shared drive we use the following folder structure:
 
-Inside the product folder, e.g. _JAAS
+Inside the product folder, e.g. \_JAAS
+
 - Cycle: e.g. 20.10
 - Name of the Master Epic / Roadmap Item: e.g. Layout hierarchy views
 - Number of the issue on GitHub: e.g. #1189
 
 Folder structure inside:
+
 - 0 Briefs, Specs & Proposals
 - A - Discovery
 - B - UX
