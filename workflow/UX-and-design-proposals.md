@@ -16,22 +16,20 @@ This document outlines the guidelines on our tools (e.g. Miro, Zeplin, GitHub) a
   - [Docs and Specs](#docs-and-specs)
   - [Miro](#miro)
   - [Zeplin](#zeplin)
-  - [General direction](#general-direction)
-- [Publishing on Miro/Zeplin](#publishing-on-miro/zeplin)
+- [Publishing on Miro and Zeplin](#publishing-on-miro-and-zeplin)
   - [Naming convention](#naming-convention)
   - [Zeplin status](#zeplin-status)
-  - [Links to specs/docs/epics](#links-to-specs-docs-epics)
+  - [Links to specs docs epics](#links-to-specs-docs-epics)
   - [Inviting people to projects](#inviting-people-to-projects)
   - [Resolving comments](#resolving-comments)
 - [Giving feedback](#giving-feedback)
-  - [Start your comment with](#start-your-comment-with:)
+  - [Start your comment with](#start-your-comment-with)
   - [When do we comment?](#when-do-we-comment)
 - [30:60:90 Method](#30:60:90-method)
   - [30% A rough idea](#30%-A-rough-idea)
   - [60% A first draft of a set concept](#60%-A-first-draft-of-a-set-concept)
   - [90% A last check before development](#90%-A-last-check-before-development)
 - [Google Drive folder structure](#google-drive-folder-structure)
-- [Resources](#resources)
 
 
 ## Project status
@@ -81,17 +79,17 @@ Miro is very valuable especially during the definition phase. You might want to 
 
 When ready for wireframes and visual design it can then move to Zeplin. Use tags and naming convention in a way that reflects the status of the project.
 
-## Publishing on Miro/Zeplin
+## Publishing on Miro and Zeplin
 
 ### Naming convention
 
 **Main section**
-To group all the projects we use the main section on Zeplin, which groups things on a cycle and product level. It should be named [CycleYY.MM Product]
+- To group all the projects we use the main section on Zeplin, which groups things on a cycle and product level. It should be named [CycleYY.MM Product]
 	
 Example: “20.04 Snap”
 
 **Projects name**
-Name your projects this way, using the year and the month of the cycle the project refers to: [CycleYY.MM] [Product] - [Project name]
+- Name your projects this way, using the year and the month of the cycle the project refers to: [CycleYY.MM] [Product] - [Project name]
 	
 Example: “20.04 Snap - Progressive release”
 
@@ -114,7 +112,7 @@ Examples:
 ### Zeplin status
 A project should reflect the current status using the status option on Zeplin.
 
-### Links to specs/docs/epics
+### Links to specs docs epics
 Put links to specs, docs or issues/epics in the description field, so people can find their way back to the spec and to the associated cards.
 
 ### Inviting people to projects
@@ -131,10 +129,10 @@ Put links to specs, docs or issues/epics in the description field, so people can
 
 Motivations behind creating this practice: time zones, semantic gap, hard to categorise the feedback, need a way to receive feedback that we can work with and understand the motivation behind the feedback.
 
-### Start your comment with:
+### Start your comment with
 
 **1. “+1” or “I like…”**
-The purpose is to highlight what is agreed or what fits the requirements.
+- The purpose is to highlight what is agreed or what fits the requirements.
 
 - For components that you like and that we should keep it.
 - Good to go, agreed and signed off (in relation to the context the comment is on)
@@ -143,7 +141,7 @@ The purpose is to highlight what is agreed or what fits the requirements.
 
 
 **2. “I wish… because” or “I think… because”**
-The purpose is to get to the point and provide explanation/reasoning behind it.
+- The purpose is to get to the point and provide explanation/reasoning behind it.
 
 *When on Zeplin, use the yellow tag for this
 
@@ -161,7 +159,7 @@ Examples:
 “I think you’ve used the wrong logo/colour/icon because X website uses another one”
 
 **3. “Info”**
-When you don’t want to express an opinion, but would like to share information, caveat, or references that I might have missed or overlooked in the prototype/wireframe.
+- When you don’t want to express an opinion, but would like to share information, caveat, or references that I might have missed or overlooked in the prototype/wireframe.
 
 *When on Zeplin, use the purple tag for this
 
@@ -171,7 +169,7 @@ Examples:
 “[INFO] we have a pattern that fits this use case”
 
 **4. “What if…” or “I wonder...”**
-The purpose is to propose an alternative solution (what would be good). Depending on the stage of the project this could be on a discovery, UX, visual or implementation level.
+- The purpose is to propose an alternative solution (what would be good). Depending on the stage of the project this could be on a discovery, UX, visual or implementation level.
 **The ideal comment would also add reasoning to the proposal**, or add “because…” if your comment needs elaborating or add context on what could be improved.
 
 *When on Zeplin, use the blue tag for this
@@ -184,7 +182,7 @@ Examples:
 ### When do we comment?
 
 **Peer review metaphor**
-Soliciting feedback from our peers (other designers) should be more about asking "what haven't I thought of", rather than "do you approve of my solution" - and more akin to a peer review than a critique.
+- Soliciting feedback from our peers (other designers) should be more about asking "what haven't I thought of", rather than "do you approve of my solution" - and more akin to a peer review than a critique.
 
 As feedback-givers we should think twice before pressing "post" on an item of feedback and ask ourselves "does this comment further the goal of improving the end-user's experience?"
 
@@ -193,10 +191,10 @@ There should be a level of mutual respect and trust, sufficient that comments ar
 As design professionals we should feel empowered to consider feedback and then incorporate or disregard it as we see fit. Of course, we shouldn't dismiss all feedback but we should aim to strike a balance.
 
 **Design direction**
-If there are comments which are more fundamental about the feature, we should ping each other as opposed to leaving comments as this would lead to more confusion.
+- If there are comments which are more fundamental about the feature, we should ping each other as opposed to leaving comments as this would lead to more confusion.
 
 **Does it need a comment?**
-Wonder whether it needs to be a comment at all, or if the matter requires a quick chat or a deeper understanding cross-discipline.
+- Wonder whether it needs to be a comment at all, or if the matter requires a quick chat or a deeper understanding cross-discipline.
 Add comments that use the feedback convention above to help the author understand your comments.
 
 ## 30:60:90 Method
@@ -235,32 +233,16 @@ At 90% we are about to hand over to development. By now, we should have tested t
 For our Google Drive Web & Design team shared drive we use the following folder structure:
 
 Inside the product folder, e.g. _JAAS
-Cycle: e.g. 20.10
-Name of the Master Epic / Roadmap Item: e.g. Layout hierarchy views
-Number of the issue on GitHub: e.g. #1189
+- Cycle: e.g. 20.10
+- Name of the Master Epic / Roadmap Item: e.g. Layout hierarchy views
+- Number of the issue on GitHub: e.g. #1189
 
 Folder structure inside:
-0 Briefs, Specs & Proposals
-A - Discovery
-B - UX
-C - Visual Design
-D - Prototype
-E - User Testing
-F - Build
-G - QA
-
-
-## Resources
-
--   <http://dschool-old.stanford.edu/wp-content/themes/dschool/method-cards/i-like-i-wish-what-if.pdf> 
--   <http://www.andyhanselman.com/2013/05/03/i-like-i-wish-i-wonder-a-great-way-to-make-innovation-work-for-you/> 
--   <https://www.ideo.com/blog/build-your-creative-confidence-i-like-i-wish> 
--   <https://public-media.interaction-design.org/pdf/I-Like-I-Wish-What-If.pdf> 
--   <https://medium.com/google-design/the-art-of-giving-feedback-80a6a4e2e843>
-
-### Design critique
-
--   30-60-90 Framework
--   Want To Build A Culture Of Innovation? Master The Design Critique
--   Improving Design With Critique
--   Art of design critique
+- 0 Briefs, Specs & Proposals
+- A - Discovery
+- B - UX
+- C - Visual Design
+- D - Prototype
+- E - User Testing
+- F - Build
+- G - QA
