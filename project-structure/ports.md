@@ -72,6 +72,7 @@ This is so that team members can easily run multiple projects at the same time w
 | 8206                   | [security-certs-docs](https://github.com/CanonicalLtd/security-certs-docs)                           |
 | 8207                   | [ubuntu-core-docs](https://github.com/CanonicalLtd/ubuntu-core-docs)                                 |
 | 8300                   | [global-nav](https://github.com/canonical-web-and-design/global-nav)                                 |
+| 8301                   | [cookie-policy](https://github.com/canonical-web-and-design/cookie-policy)                           |
 | 8400, 8401, 8402, 8404 | [maas-ui](https://github.com/canonical-web-and-design/maas-ui)                                       |
 | 8403                   | [react-components](https://github.com/canonical-web-and-design/react-components)                     |
 
