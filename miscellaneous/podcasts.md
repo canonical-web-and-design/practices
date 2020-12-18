@@ -17,6 +17,7 @@ Here is a list of suggested podcasts:
 - [ShopTalk Show](http://shoptalkshow.com/)
 - [Syntax](https://syntax.fm/)
 - [Full Stack Radio](http://www.fullstackradio.com/)
+- [418, I'm a teapod](https://teapod.club/)
 
 ## JavaScript
 
