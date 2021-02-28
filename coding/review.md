@@ -1,5 +1,7 @@
 ## Etiquette
 
+Our primary aim in participating in code reviews is to learn from each other, increasing our understanding of the codebase we are responsible for and of the technologies we use.
+
 ### Approval with suggestions for trivial changes
 
 Reviewers may consider approving a branch with the caveat that issues they've identified are resolved or considered, rather than marking the branch _needs fixing_ on Launchpad or _request changes_ on GitHub.
