@@ -3,3 +3,4 @@ _site/
 ./.bundle/
 /node_modules
 /yarn-error.log
+.jekyll-cache/

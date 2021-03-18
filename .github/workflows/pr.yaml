@@ -4,19 +4,21 @@ on: pull_request
 jobs:
   test-build:
     runs-on: ubuntu-latest
-
+    container:
+      image: jekyll/jekyll
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: Check the site builds
         run: |
-          sudo apt-get update && sudo apt-get install --yes ruby-bundler
-          bundle install
+          mkdir .jekyll-cache _site
+          jekyll build
 
-      - name: Build the site resources
-        run: jekyll build
+      - name: Install curl
+        run: |
+          apk add curl
 
-      - name: Run the site, check it's accessible
+      - name: Serve the site, check it's accessible
         run: |
           jekyll serve &
           sleep 1
