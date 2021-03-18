@@ -10,7 +10,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install --yes bundler
+          sudo apt-get update && sudo apt-get install --yes ruby-bundler
           bundle install
 
       - name: Build the site resources
