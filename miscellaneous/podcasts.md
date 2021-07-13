@@ -18,6 +18,7 @@ Here is a list of suggested podcasts:
 - [Syntax](https://syntax.fm/)
 - [Full Stack Radio](http://www.fullstackradio.com/)
 - [418, I'm a teapod](https://teapod.club/)
+- [Smashing Podcast](https://podcast.smashingmagazine.com/)
 
 ## JavaScript
 
