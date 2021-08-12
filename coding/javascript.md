@@ -41,6 +41,7 @@ TypeScript is currently used in the following projects:
 
 - [maas-ui](https://github.com/canonical-web-and-design/react-components/)
 - [juju-dashboard](https://github.com/canonical-web-and-design/jaas-dashboard)
+- [ubuntu.com](https://github.com/canonical-web-and-design/ubuntu.com)
 - [react-components](https://github.com/canonical-web-and-design/react-components/)
 
 ### Patterns
