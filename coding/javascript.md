@@ -40,6 +40,8 @@ Remember that TypeScript gives you the ability to _progressively_ type your proj
 TypeScript is currently used in the following projects:
 
 - [maas-ui](https://github.com/canonical-web-and-design/react-components/)
+- [juju-dashboard](https://github.com/canonical-web-and-design/jaas-dashboard)
+- [ubuntu.com](https://github.com/canonical-web-and-design/ubuntu.com)
 - [react-components](https://github.com/canonical-web-and-design/react-components/)
 
 ### Patterns
@@ -54,7 +56,7 @@ This makes it clear that a type has been imported, rather than a component or cl
 
 #### How do I type that?
 
-Sometimes you'll have difficulty finding the appropriate type. A handy escape hatch you can make use of when starting out, is to declare a placeholder type called `TSFixMe`, aliased to `any`. Using this type means that the object in question is effectively untyped, however it is easily grepable for later improvement.
+NPM now displays a link beside the project name in the header with a direct link to the "Definitely Typed" types for the project. Sometimes however, you'll still have difficulty finding the appropriate type. A handy escape hatch you can make use of when starting out, is to declare a placeholder type called `TSFixMe`, aliased to `any`. Using this type means that the object in question is effectively untyped, however it is easily grepable for later improvement.
 
 ```ts
 export type TSFixMe = any;
@@ -84,7 +86,7 @@ if (false) {
 
 Typically you'll want to provide a type for `props` and a return type.
 
-`props` should be typed in the same file as the component, and typically a functional component will have the return type `JSX.Element`:
+`props` should be typed in the same file as the component, and typically a functional component will have the return type `JSX.Element`. TypeScript will infer a react component's type as `JSX.Element` so you do not need to explicitly include it.
 
 ```typescript
 type Props = {
@@ -155,7 +157,7 @@ const Car = ({ colour, ...wheelProps }: Props): JSX.Element => (
 // In use
 <Car colour="red" spinners={false} />
 
-renders => "<p>My car is red. My car is boring.</p>"
+// renders => "<p>My car is red. My car is boring.</p>"
 ```
 
 For a real world example of this, have a look at the [Accordion component](https://github.com/canonical-web-and-design/react-components/blob/master/src/components/Accordion/Accordion.tsx#L37) in react-components.
@@ -191,15 +193,17 @@ We use the [Jest](https://jestjs.io) unit test framework.
 #### General Testing Advice
 
 - Don't test external code/libraries.
+- [Test your user contract](https://fromanegg.com/post/2020/01/01/testing-your-user-contract/).
+- Use factories to generate shared application state across tests with [Fishery](https://github.com/thoughtbot/fishery).
 
 #### Testing React
 
-- Tests should be collocated with their component in the same directory (MyComponent.js should have a corresponding MyComponent.test.js)
+- Tests should be collocated with their component in the same directory (MyComponent.tsx should have a corresponding MyComponent.test.tsx)
 - If a component seems difficult to test, it might indicate that it needs to be further decomposed into smaller components.
 - Unittests should test component behaviour, rather than explicit rendering. Typically you want to test state changes,
   that handlers are called with appropriate arguments, and any internal logic.
-- [Jest snapshots](https://jestjs.io/docs/en/snapshot-testing) are ideal for catching regressions in component output/rendering. If you are reviewing a branch, do take care to inspect the snapshot diffs. Snapshot tests should compliment unit tests rather than replace them, as unit tests better describe the intended behaviour and output of a component.
-- Favour testing components in isolation where possible (use enzyme's `shallow` over `mount` where possible).
+- [Jest snapshots](https://jestjs.io/docs/en/snapshot-testing) should be avoided for complex outputs as they require updating any time a layout change is made even if there is no difference in functionality. A snapshots should be small and only used when testing the important output attributes is tedious or otherwise undesirable. Snapshot tests should compliment unit tests rather than replace them, as unit tests better describe the intended behaviour and output of a component.
+- Use the testing libraries `mount` methods over `shallow` where possible to ensure you're testing the full component stack.
 
 ##### Redux
 
@@ -213,13 +217,11 @@ We use the [Jest](https://jestjs.io) unit test framework.
 
 To ensure code formatting consistency across our codebase, we use [Prettier](https://github.com/prettier/prettier).
 
-JavaScript should also be written using [AirBnB](https://github.com/airbnb/javascript) style. New projects can adhere to this by selecting 'AirBnB' during `eslint init`, and existing projects can find the relevant ESLint config in [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
-
 ### Commenting code
 
 As a general rule, human-readable code is preferred over brevity.
 
-Inline comments should be provided where logic or behaviour is unexpected or required due to external factors.
+Inline comments should be provided where logic or behaviour is unexpected or required due to external factors. If not explicitly clear, adding a comment to answer the "Why did they do this" can greatly help debugging in the future.
 
 If library code, [JSDoc](http://usejsdoc.org/) comments should be provided as appropriate.
 
@@ -236,7 +238,8 @@ We recommend new projects use the [hooks API](https://reactjs.org/docs/hooks-int
 All projects should generally use the following:
 
 - Style framework - [Vanilla](https://github.com/vanilla-framework/vanilla-framework)
-- Component testing - [Enzyme](https://github.com/airbnb/enzyme)
+- Component testing(New) - [React Testing Library](https://github.com/testing-library/react-testing-library)
+- Component testing(Existing) - [Enzyme](https://github.com/airbnb/enzyme)
 
 If you require routing, or state management:
 
@@ -263,8 +266,7 @@ For hooks based projects, we recommend the following:
 - Selector composition and memoisation - [Reselect](https://github.com/reduxjs/reselect)
 - Immutable state management - [Immer](https://github.com/immerjs/immer)
 - Async/side-effects management (http, localstorage etc.) - [redux-saga](https://github.com/redux-saga/redux-saga)
-
-If you'd like introduce a new library, or feel we should replace one of the above, please make a PR to start a discussion.
+- Redux toolset - [Redux Toolkit](https://redux-toolkit.js.org/)
 
 ### Reference projects
 
@@ -274,13 +276,9 @@ If you'd like introduce a new library, or feel we should replace one of the abov
 
 [crbs-ui](https://github.com/canonical-web-and-design/crbs-ui) (aka RBAC) - generally reflects current standards, but class based.
 
-[build.snapcraft.io](https://github.com/canonical-websites/build.snapcraft.io) - a bit dated, but first fully React-centred project in the webteam. Our first use of React, server-side rendering, Redux, Enzyme, etc. While it doesn't fully follow our current standards, it may be a good place to check how some of these libraries were used.
-
 ### File naming conventions
 
-- Component files should use CamelCase and match the name of the default export (e.g. `MyComponent.js`).
-- Files containing JSX should still have a `.js` extension.
-  (See [justification](https://github.com/facebook/create-react-app/issues/87#issuecomment-234627904) from Dan Abramov).
+- Component files should use PascalCase and match the name of the default export (e.g. `MyComponent.tsx`).
 
 ### Redux
 
