@@ -182,7 +182,7 @@ We use [Yarn](https://yarnpkg.com/en) for dependency management.
 
 #### Use the npm files array
 
-Use the package.json `files` array to whitelist files for inclusion in your package. This is the safest approach, as it is explicit; using `.npmignore` is potentially dangerous, as you may end up packaging files unintentionally (credentials in a .env file being the worst case scenario!).
+Use the package.json `files` array to allowlist files for inclusion in your package. This is the safest approach, as it is explicit; using `.npmignore` is potentially dangerous, as you may end up packaging files unintentionally (credentials in a .env file being the worst case scenario!).
 
 See [Publishing what you mean to publish](https://blog.npmjs.org/post/165769683050/publishing-what-you-mean-to-publish) for further details.
 

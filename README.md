@@ -1,6 +1,6 @@
 # Web and design team practices
 
-[![CircleCI build status](https://circleci.com/gh/canonical-web-and-design/practices.svg?style=shield)](https://circleci.com/gh/canonical-web-and-design/practices) [![Code coverage](https://codecov.io/gh/canonical-web-and-design/practices/branch/master/graph/badge.svg)](https://codecov.io/gh/canonical-web-and-design/practices)
+[![CircleCI build status](https://circleci.com/gh/canonical-web-and-design/practices.svg?style=shield)](https://circleci.com/gh/canonical-web-and-design/practices) [![Code coverage](https://codecov.io/gh/canonical-web-and-design/practices/branch/main/graph/badge.svg)](https://codecov.io/gh/canonical-web-and-design/practices)
 
 A collection of documents that describe best practices for Canonical web team.
 
