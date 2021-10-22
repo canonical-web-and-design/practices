@@ -279,6 +279,12 @@ For hooks based projects, we recommend the following:
 ### File naming conventions
 
 - Component files should use PascalCase and match the name of the default export (e.g. `MyComponent.tsx`).
+- Should avoid the use of non-inclusive language such as: _whitelist_, _blacklist_
+
+### Variable/function naming conventions
+
+- Variable should use camalCase and should describe there use (e.g. `initialState`)
+- Should avoid the use of non-inclusive language such as: _whitelist_, _blacklist_
 
 ### Redux
 
