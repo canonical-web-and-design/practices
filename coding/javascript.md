@@ -279,7 +279,7 @@ For hooks based projects, we recommend the following:
 ### File naming conventions
 
 - Component files should use PascalCase and match the name of the default export (e.g. `MyComponent.tsx`).
-- Avoid the use of non-inclusive language such as: _whitelist_, _blacklist_.  A full list of non-inclusive terms can be found [here](https://github.com/canonical-web-and-design/Inclusive-naming/blob/main/config.yml).
+- Avoid the use of non-inclusive language such as: _whitelist_, _blacklist_. A full list of non-inclusive terms can be found [here](https://github.com/canonical-web-and-design/Inclusive-naming/blob/main/config.yml).
 
 ### Variable/function naming conventions
 
