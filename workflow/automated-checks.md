@@ -24,6 +24,7 @@ All website projects should run as many of the following checks as make sense:
 - `lint-python`: Check `.py` files conform to [our formatting standards](https://canonical-web-and-design.github.io/practices/coding/python.html)
 - `test-js`: Run JavaScript tests and upload code coverage to codecov.io
 - `test-python`: Run any Python tests and upload code coverage to codecov.io
+- `inclusive-naming-check`: Check changes within the PR for non-inclusive language
 
 > ⓘ For example, [kuberflow-news.com](https://github.com/canonical-web-and-design/kubeflow-news.com/blob/master/.github/workflows/pr.yaml)
 

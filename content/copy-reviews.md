@@ -55,3 +55,6 @@ If something is ambiguous, ill-defined or absent from the style guide, please [s
 - Does the document use any exclamation marks? Are they needed or can they be removed? (Do it)
 - Does the document include any directional words? (It shouldn’t)
   - Incorrect: _Check out the list below/above/to the left/right_
+- Does the document include any non-inclusive language? (It shouldn't) A full list of non-inclusive terms can be found [here](https://github.com/canonical-web-and-design/Inclusive-naming/blob/main/config.yml).
+  - Correct: _allowlist_, _blocklist_, _main_
+  - Incorrect: _whitelist_, _blacklist_, _master_
